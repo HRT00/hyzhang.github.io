@@ -98,9 +98,9 @@ window.siteData = {
     { date: "2024-01", icon: "🔥", text: "AIVR-Net was accepted by Knowledge-Based Systems." }
   ],
   honors: [
+    "2025: <strong>3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track</strong>",
     "2025: <strong>Outstanding Postgraduate of Xiamen University</strong>",
     "2024: <strong>National Scholarship for Postgraduate Student</strong>",
-    "2025: <strong>3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track, ICCV 2025</strong>"
   ],
   service: [
     "Reviewer for AAAI, Pattern Recognition Letters, and IEEE Internet of Things Journal."
