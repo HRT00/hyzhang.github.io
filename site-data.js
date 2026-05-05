@@ -53,24 +53,6 @@ window.siteData = {
       link: "https://arxiv.org/abs/2604.13183"
     },
     {
-      title: "AIVR-Net: Attribute-based invariant visual representation learning for vehicle re-identification",
-      authors: "Hongyang Zhang, Zhenyu Kuang, Lidong Cheng, Yinhao Liu, Xinghao Ding, Yue Huang",
-      venue: "Knowledge-Based Systems 2024 (Accepted, JCR-Q1, IF=7.6)",
-      year: "2024",
-      type: "Journal",
-      selected: true,
-      description: "An attribute-based invariant visual representation learning framework for vehicle re-identification."
-    },
-    {
-      title: "Unity in Diversity: Multi-expert Knowledge Confrontation and Collaboration for Generalizable Vehicle Re-identification",
-      authors: "Zhenyu Kuang, Hongyang Zhang, Lidong Cheng, Yinhao Liu, Yue Huang, Xinghao Ding",
-      venue: "arXiv preprint 2024",
-      year: "2024",
-      type: "Preprint",
-      selected: true,
-      description: "A multi-expert knowledge confrontation and collaboration framework for generalizable vehicle re-identification."
-    },
-    {
       title: "Position-Aware Self-Supervised Representation Learning For Cross-Mode Radar Signal Recognition",
       authors: "Hongyang Zhang, Haitao Zhang, Yinhao Liu, Kunjie Lin, Yue Huang, Xinghao Ding",
       venue: "ICASSP 2026 (Accepted, CCF-B)",
@@ -88,6 +70,24 @@ window.siteData = {
       type: "Journal",
       selected: true,
       description: "A prompt-guided representation alignment and dynamic adaption framework for time series forecasting."
+    },
+    {
+      title: "AIVR-Net: Attribute-based invariant visual representation learning for vehicle re-identification",
+      authors: "Hongyang Zhang, Zhenyu Kuang, Lidong Cheng, Yinhao Liu, Xinghao Ding, Yue Huang",
+      venue: "Knowledge-Based Systems 2024 (Accepted, JCR-Q1, IF=7.6)",
+      year: "2024",
+      type: "Journal",
+      selected: true,
+      description: "An attribute-based invariant visual representation learning framework for vehicle re-identification."
+    },
+    {
+      title: "Unity in Diversity: Multi-expert Knowledge Confrontation and Collaboration for Generalizable Vehicle Re-identification",
+      authors: "Zhenyu Kuang, Hongyang Zhang, Lidong Cheng, Yinhao Liu, Yue Huang, Xinghao Ding",
+      venue: "arXiv preprint 2024",
+      year: "2024",
+      type: "Preprint",
+      selected: true,
+      description: "A multi-expert knowledge confrontation and collaboration framework for generalizable vehicle re-identification."
     }
   ],
   news: [

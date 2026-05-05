@@ -303,8 +303,15 @@ a {
   font-size: 0.94rem;
 }
 
-.publication-link {
-  margin-top: 0.35rem;
+.venue-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.55rem;
+}
+
+.publication-inline-link {
+  color: var(--accent);
 }
 
 .author-highlight {

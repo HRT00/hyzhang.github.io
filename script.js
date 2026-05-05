@@ -69,16 +69,25 @@
       "Hongyang Zhang",
       '<span class="author-highlight">Hongyang Zhang</span>'
     );
-    const venue = make("p", "meta venue", pub.venue);
-    const link = make("p", "meta publication-link");
+    const metaRow = make("p", "meta venue-row");
+    const venue = make("span", "venue", pub.venue);
 
     article.append(title, authors);
     if (pub.venue) {
-      article.append(venue);
+      metaRow.append(venue);
     }
     if (pub.link) {
-      link.innerHTML = `<em><a href="${pub.link}" target="_blank" rel="noreferrer">Link</a></em>`;
-      article.append(link);
+      const separator = document.createTextNode(pub.venue ? "  " : "");
+      const link = document.createElement("a");
+      link.className = "publication-inline-link";
+      link.href = pub.link;
+      link.target = "_blank";
+      link.rel = "noreferrer";
+      link.innerHTML = "<em>Link</em>";
+      metaRow.append(separator, link);
+    }
+    if (pub.venue || pub.link) {
+      article.append(metaRow);
     }
     return article;
   }
