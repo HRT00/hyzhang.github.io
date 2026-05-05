@@ -20,8 +20,8 @@ window.siteData = {
     { label: "Email", href: "mailto:hongyangzhang1@link.cuhk.edu.cn" }
   ],
   about: [
-    "Welcome to my academic homepage, I am currently a PhD student at The Chinese University of Hong Kong, Shenzhen, working in <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Laboratory of Sensing and Communication for Smart Cities</strong></a> and supervised by <a href=\"https://scholar.google.com/citations?user=h82gvswAAAAJ&hl=en&oi=ao\"><strong>Man-On Pun</strong></a>. My research focuses on <span class=\"about-highlight\">Cross-View/Video/3D Visual Perception</span> and <span class=\"about-highlight\">Multi-modal Reasoning</span> in UAV and Remote Sensing scenarios.",
-    "Before joining CUHKSZ, I was with <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a> at Xiamen University, supervised by <a href=\"https://scholar.google.com/citations?user=k5hVBfMAAAAJ&hl=en&oi=ao\"><strong>Xinghao Ding</strong></a>, where I worked on related problems in <strong>time-series signal processing</strong> and <strong>visual intelligent perception (Object Re-identification)</strong>."
+    "Welcome to my academic homepage, I am currently a PhD student at The Chinese University of Hong Kong, Shenzhen, working in <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Laboratory of Sensing and Communication for Smart Cities</strong></a> and supervised by <a href=\"https://scholar.google.com/citations?user=h82gvswAAAAJ&hl=en&oi=ao\"><strong>Prof. Man-On Pun</strong></a>. My research focuses on <span class=\"about-highlight\">Cross-View/Video/3D Visual Perception</span> and <span class=\"about-highlight\">Multi-modal Reasoning</span> in UAV and Remote Sensing scenarios. Starting from June 2026, I will join <a href=\"https://mmlab.ie.cuhk.edu.hk/\"><strong>MMLab at CUHK</strong></a> and work with <a href=\"https://scholar.google.com/citations?user=BN2Ze-QAAAAJ&hl=en\"><strong>Prof. Hongsheng Li</strong></a> as a visiting student.",
+    "Before joining CUHKSZ, I was with <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a> at Xiamen University, supervised by <a href=\"https://scholar.google.com/citations?user=k5hVBfMAAAAJ&hl=en&oi=ao\"><strong>Prof. Xinghao Ding</strong></a>, where I worked on related problems in <strong>time-series signal processing</strong> and <strong>visual intelligent perception (Object Re-identification)</strong>."
   ],
   publications: [
     {
@@ -100,7 +100,7 @@ window.siteData = {
   honors: [
     "2025: <strong>Outstanding Postgraduate of Xiamen University</strong>",
     "2024: <strong>National Scholarship for Postgraduate Student</strong>",
-    "2025: <strong>3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track ICCV 2025</strong>"
+    "2025: <strong>3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track, ICCV 2025</strong>"
   ],
   service: [
     "Reviewer for AAAI, Pattern Recognition Letters, and IEEE Internet of Things Journal."
