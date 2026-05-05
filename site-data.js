@@ -1,7 +1,7 @@
 window.siteData = {
   name: "Hongyang Zhang",
   nameZh: "\u7ae0\u5f18\u9633",
-  role: "Artifical Intelligence",
+  role: "PhD student in Computer Information and Engineering",
   affiliation: "The Chinese University of Hong Kong, Shenzhen",
   previousAffiliation: "",
   location: "Shenzhen, China",
@@ -21,7 +21,7 @@ window.siteData = {
   ],
   about: [
     "Welcome to my academic homepage.",
-    "I am currently a PhD student at The Chinese University of Hong Kong, Shenzhen, working in <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Man-On Pun Lab</strong></a> and supervised by <strong>Man-On Pun</strong>. My research focuses on GeoAI, multi-modal learning, and cross-view learning, with particular interest in visual geo-localization and remote sensing image understanding.",
+    "I am currently a PhD student at The Chinese University of Hong Kong, Shenzhen, working in <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Laboratory of Sensing and Communication for Smart Cities</strong></a> and supervised by <strong>Man-On Pun</strong>. My research focuses on GeoAI, multi-modal learning, and cross-view learning, with particular interest in visual geo-localization and remote sensing image understanding.",
     "Before joining CUHKSZ, I was with <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a> at Xiamen University, supervised by <strong>Xinghao Ding</strong>, where I worked on related problems in signal processing and intelligent perception.",
     "A central theme in my recent work is UAV geo-localization, especially matching UAV-view imagery with satellite-view imagery under challenging real-world conditions. I am interested in robust representation learning, structural reasoning, and information-theoretic methods for better generalization across views and domains."
   ],
@@ -80,9 +80,7 @@ window.siteData = {
     "Add your honors, scholarships, competition awards, or outstanding student distinctions here."
   ],
   service: [
-    "Reviewer for AAAI",
-    "Reviewer for Pattern Recognition Letters",
-    "Reviewer for IEEE Internet of Things Journal"
+    "Reviewer for AAAI, Pattern Recognition Letters, and IEEE Internet of Things Journal"
   ],
   cv: [
     { label: "Education", text: "Add your degree, department, university, and dates." },
