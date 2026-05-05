@@ -70,9 +70,8 @@
       '<span class="author-highlight">Hongyang Zhang</span>'
     );
     const venue = make("p", "meta venue", pub.venue);
-    const description = make("p", "description", pub.description);
 
-    article.append(title, authors, venue, description);
+    article.append(title, authors, venue);
     return article;
   }
 
@@ -91,7 +90,11 @@
   });
 
   const honors = document.getElementById("honors-list");
-  data.honors.forEach((item) => honors.appendChild(make("li", "", item)));
+  data.honors.forEach((item) => {
+    const row = make("li", "");
+    row.innerHTML = item;
+    honors.appendChild(row);
+  });
 
   const service = document.getElementById("service-list");
   data.service.forEach((item) => service.appendChild(make("li", "", item)));

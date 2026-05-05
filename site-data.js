@@ -34,22 +34,22 @@ window.siteData = {
       description: "An information-theoretic object-centric framework for cross-view UAV geo-localization, designed to improve robustness and generalization across regions, viewpoints, and weather conditions."
     },
     {
-      title: "BEVGeo: Unified 3D-Aware UAV-based Unsupervised Geo-localization via BEV Semantic Consistency",
+      title: "BEVGeo: Unified 3D-Aware UAV-based Unsupervised Geo-localization via BEV Semantic Consistency (Under Review)",
       authors: "Hongyang Zhang, Hongrui Yin, Xianping Ma, et al.",
       venue: "ISPRS Journal (under review, IF=12.7)",
       year: "2026",
       type: "Journal",
       selected: true,
-      description: "A unified 3D-aware framework for UAV-based unsupervised geo-localization, leveraging BEV semantic consistency to strengthen cross-view understanding."
+      description: ""
     },
     {
-      title: "GeoLink: A 3D-Aware Framework Towards Better Generalization in Cross-View Geo-Localization",
+      title: "GeoLink: A 3D-Aware Framework Towards Better Generalization in Cross-View Geo-Localization (Under Review)",
       authors: "Hongyang Zhang, Yinhao Liu, Haitao Zhang, et al.",
       venue: "ACM MM 2026 (under review)",
       year: "2026",
       type: "Conference",
       selected: true,
-      description: "A 3D-aware cross-view geo-localization framework aimed at improving generalization across diverse scenes and unseen conditions."
+      description: ""
     },
     {
       title: "AIVR-Net: Attribute-based invariant visual representation learning for vehicle re-identification",
@@ -81,7 +81,7 @@ window.siteData = {
     {
       title: "PRADA: Prompt-guided Representation Alignment and Dynamic Adaption for Time Series Forecasting",
       authors: "Yinhao Liu, Zhenyu Kuang, Hongyang Zhang, Chen Li, Feifei Li, Xinghao Ding",
-      venue: "Knowledge-Based Systems 2025",
+      venue: "Knowledge-Based Systems 2025 (accepted, JCR-Q1, IF=7.6)",
       year: "2025",
       type: "Journal",
       selected: true,
@@ -94,9 +94,9 @@ window.siteData = {
     { date: "2024-01", icon: "🔥", text: "AIVR-Net was accepted by Knowledge-Based Systems." }
   ],
   honors: [
-    "Outstanding Postgraduate of Xiamen University (2025)",
-    "National Scholarship for Postgraduate Student (2024)",
-    "3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track, ICCV 2025"
+    "2025: <strong>Outstanding Postgraduate of Xiamen University</strong>",
+    "2024: <strong>National Scholarship for Postgraduate Student</strong>",
+    "2025: <strong>3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track, ICCV 2025</strong>"
   ],
   service: [
     "Reviewer for AAAI, Pattern Recognition Letters, and IEEE Internet of Things Journal"
