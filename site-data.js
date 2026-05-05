@@ -99,8 +99,8 @@ window.siteData = {
   ],
   honors: [
     "2025: <strong>3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track</strong>",
-    "2025: <strong>Outstanding Postgraduate of Xiamen University</strong>",
-    "2024: <strong>National Scholarship for Postgraduate Student</strong>",
+    "2024-2025: <strong>Outstanding Postgraduate of Xiamen University</strong>",
+    "2023-2024: <strong>National Scholarship for Postgraduate Student</strong>",
   ],
   service: [
     "Reviewer for AAAI, Pattern Recognition Letters, and IEEE Internet of Things Journal."
