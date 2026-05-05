@@ -1,19 +1,18 @@
 window.siteData = {
   name: "Hongyang Zhang",
+  nameZh: "\u7ae0\u5f18\u9633",
   role: "Researcher in Computer Vision, Remote Sensing, and Geo-Localization",
   affiliation: "The Chinese University of Hong Kong, Shenzhen",
+  previousAffiliation: "",
   location: "China",
   email: "hongyangzhang1@link.cuhk.edu.cn",
   avatarText: "HZ",
   avatarImage: "images/hongyang-zhang.jpg",
   lastUpdated: "May 5, 2026",
   interests: [
-    "Cross-View Geo-Localization",
-    "Visual Geo-Localization",
-    "Object-Centric Learning",
-    "UAV Remote Sensing",
-    "Remote Sensing Image Understanding",
-    "Representation Learning"
+    "GeoAI",
+    "Multi-modal Learning",
+    "Cross-View Learning"
   ],
   links: [
     { label: "Google Scholar", href: "https://scholar.google.com/citations?user=35tLJkoAAAAJ&hl=en" },
@@ -23,8 +22,7 @@ window.siteData = {
   ],
   about: [
     "I work on computer vision and remote sensing, with a focus on visual geo-localization and cross-view image understanding. My research studies how to build robust representations that can generalize across viewpoint, region, weather, and scale changes.",
-    "A central theme in my recent work is UAV geo-localization, especially matching UAV-view imagery with satellite-view imagery under challenging real-world conditions. I am particularly interested in object-centric learning, structural reasoning, and information-theoretic objectives for robust cross-view representation learning.",
-    "This homepage is adapted in spirit from PRISM: content-first, publication-oriented, responsive, and easy to maintain."
+    "A central theme in my recent work is UAV geo-localization, especially matching UAV-view imagery with satellite-view imagery under challenging real-world conditions. I am particularly interested in object-centric learning, structural reasoning, and information-theoretic objectives for robust cross-view representation learning."
   ],
   publications: [
     {

@@ -18,6 +18,12 @@
     if (data[key]) node.textContent = data[key];
   });
 
+  const previousAffiliation = document.getElementById("previous-affiliation");
+  if (previousAffiliation && data.previousAffiliation) {
+    previousAffiliation.textContent = `Previous: ${data.previousAffiliation}`;
+    previousAffiliation.hidden = false;
+  }
+
   const portraitImage = document.getElementById("portrait-image");
   const portraitFallback = document.querySelector(".portrait span");
   if (portraitImage && data.avatarImage) {
