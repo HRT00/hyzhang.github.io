@@ -36,7 +36,7 @@ window.siteData = {
     {
       title: "BEVGeo: Unified 3D-Aware UAV-based Unsupervised Geo-localization via BEV Semantic Consistency",
       authors: "Hongyang Zhang, Hongrui Yin, Xianping Ma, et al.",
-      venue: "ISPRS Journal (under review, JCR-Q1, IF=12.7)",
+      venue: "ISPRS Journal (under review, IF=12.7)",
       year: "2026",
       type: "Journal",
       selected: true,
@@ -45,7 +45,7 @@ window.siteData = {
     {
       title: "GeoLink: A 3D-Aware Framework Towards Better Generalization in Cross-View Geo-Localization",
       authors: "Hongyang Zhang, Yinhao Liu, Haitao Zhang, et al.",
-      venue: "ACM MM 2026 (under review, CCF-A)",
+      venue: "ACM MM 2026 (under review)",
       year: "2026",
       type: "Conference",
       selected: true,
@@ -71,11 +71,14 @@ window.siteData = {
     }
   ],
   news: [
-    { date: "2026-05", text: "InfoGeo was accepted by ICML 2026." },
-    { date: "2026-04", text: "Position-Aware Self-Supervised Representation Learning for Cross-Mode Radar Signal Recognition was accepted by ICASSP 2026." }
+    { date: "2026-05", icon: "🎉", text: "InfoGeo was accepted by ICML 2026." },
+    { date: "2026-04", icon: "📜", text: "Position-Aware Self-Supervised Representation Learning for Cross-Mode Radar Signal Recognition was accepted by ICASSP 2026." },
+    { date: "2024-01", icon: "🔥", text: "AIVR-Net was accepted by Knowledge-Based Systems." }
   ],
   honors: [
-    "Add your honors, scholarships, competition awards, or outstanding student distinctions here."
+    "Outstanding Postgraduate of Xiamen University (2025)",
+    "National Scholarship for Postgraduate Student (2024)",
+    "3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track, ICCV 2025"
   ],
   service: [
     "Reviewer for AAAI, Pattern Recognition Letters, and IEEE Internet of Things Journal"

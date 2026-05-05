@@ -80,7 +80,9 @@
   const news = document.getElementById("news-list");
   data.news.forEach((item) => {
     const row = make("div", "news-item");
-    row.append(make("div", "news-date", item.date), make("div", "news-text", item.text));
+    const text = make("div", "news-text");
+    text.textContent = item.icon ? `${item.icon} ${item.text}` : item.text;
+    row.append(make("div", "news-date", item.date), text);
     news.appendChild(row);
   });
 
