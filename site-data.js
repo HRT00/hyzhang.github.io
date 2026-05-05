@@ -20,14 +20,14 @@ window.siteData = {
     { label: "Email", href: "mailto:hongyangzhang1@link.cuhk.edu.cn" }
   ],
   about: [
-    "Welcome to my academic homepage, I am currently a PhD student at The Chinese University of Hong Kong, Shenzhen, working in <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Laboratory of Sensing and Communication for Smart Cities</strong></a> and supervised by <a href=\"https://scholar.google.com/citations?user=h82gvswAAAAJ&hl=en&oi=ao\"><strong>Man-On Pun</strong></a>. My research focuses on Cross-View/Video/3D Visual Perception and Multi-modal Reasoning.",
-    "Before joining CUHKSZ, I was with <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a> at Xiamen University, supervised by <a href=\"https://scholar.google.com/citations?user=k5hVBfMAAAAJ&hl=en&oi=ao\"><strong>Xinghao Ding</strong></a>, where I worked on related problems in signal processing and intelligent perception."
+    "Welcome to my academic homepage, I am currently a PhD student at The Chinese University of Hong Kong, Shenzhen, working in <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Laboratory of Sensing and Communication for Smart Cities</strong></a> and supervised by <a href=\"https://scholar.google.com/citations?user=h82gvswAAAAJ&hl=en&oi=ao\"><strong>Man-On Pun</strong></a>. My research focuses on <span class=\"about-highlight\">Cross-View/Video/3D Visual Perception</span> and <span class=\"about-highlight\">Multi-modal Reasoning</span> in UAV and Remote Sensing scenarios.",
+    "Before joining CUHKSZ, I was with <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a> at Xiamen University, supervised by <a href=\"https://scholar.google.com/citations?user=k5hVBfMAAAAJ&hl=en&oi=ao\"><strong>Xinghao Ding</strong></a>, where I worked on related problems in <strong>time-series signal processing</strong> and <strong>visual intelligent perception (Object Re-identification)</strong>."
   ],
   publications: [
     {
       title: "InfoGeo: Information-Theoretic Object-Centric Learning for Cross-View Generalizable UAV Geo-Localization",
       authors: "Hongyang Zhang, Maonan Wang, Ziyao Wang, Hongrui Yin, Man-On Pun",
-      venue: "ICML 2026 (ACCEPTED, CCF-A)",
+      venue: "ICML 2026 (Accepted, CCF-A)",
       year: "2026",
       type: "Conference",
       selected: true,
@@ -55,7 +55,7 @@ window.siteData = {
     {
       title: "AIVR-Net: Attribute-based invariant visual representation learning for vehicle re-identification",
       authors: "Hongyang Zhang, Zhenyu Kuang, Lidong Cheng, Yinhao Liu, Xinghao Ding, Yue Huang",
-      venue: "Knowledge-Based Systems 2024 (ACCEPTED, JCR-Q1, IF=7.6)",
+      venue: "Knowledge-Based Systems 2024 (Accepted, JCR-Q1, IF=7.6)",
       year: "2024",
       type: "Journal",
       selected: true,
@@ -73,7 +73,7 @@ window.siteData = {
     {
       title: "Position-Aware Self-Supervised Representation Learning For Cross-Mode Radar Signal Recognition",
       authors: "Hongyang Zhang, Haitao Zhang, Yinhao Liu, Kunjie Lin, Yue Huang, Xinghao Ding",
-      venue: "ICASSP 2026 (ACCEPTED, CCF-B)",
+      venue: "ICASSP 2026 (Accepted, CCF-B)",
       year: "2026",
       type: "Conference",
       selected: true,
@@ -83,7 +83,7 @@ window.siteData = {
     {
       title: "PRADA: Prompt-guided Representation Alignment and Dynamic Adaption for Time Series Forecasting",
       authors: "Yinhao Liu, Zhenyu Kuang, Hongyang Zhang, Chen Li, Feifei Li, Xinghao Ding",
-      venue: "Knowledge-Based Systems 2025 (ACCEPTED, JCR-Q1, IF=7.6)",
+      venue: "Knowledge-Based Systems 2025 (Accepted, JCR-Q1, IF=7.6)",
       year: "2025",
       type: "Journal",
       selected: true,

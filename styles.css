@@ -274,6 +274,11 @@ a {
   text-underline-offset: 0.14em;
 }
 
+.about-highlight {
+  color: #b43a28;
+  font-weight: 700;
+}
+
 .publication-list,
 .news-list,
 .cv-list {
@@ -363,7 +368,6 @@ a {
   grid-template-columns: 5.6rem 1fr;
   gap: 1rem;
   padding-bottom: 0.85rem;
-  border-bottom: 1px solid color-mix(in srgb, var(--line) 70%, transparent);
 }
 
 .news-date {
