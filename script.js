@@ -64,7 +64,11 @@
   function renderPublication(pub) {
     const article = make("article", "publication");
     const title = make("h3", "", pub.title);
-    const authors = make("p", "meta", pub.authors);
+    const authors = make("p", "meta");
+    authors.innerHTML = pub.authors.replaceAll(
+      "Hongyang Zhang",
+      '<span class="author-highlight">Hongyang Zhang</span>'
+    );
     const venue = make("p", "meta venue", pub.venue);
     const description = make("p", "description", pub.description);
 

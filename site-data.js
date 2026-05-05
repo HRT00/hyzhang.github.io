@@ -61,6 +61,15 @@ window.siteData = {
       description: "An attribute-based invariant visual representation learning framework for vehicle re-identification."
     },
     {
+      title: "Unity in Diversity: Multi-expert Knowledge Confrontation and Collaboration for Generalizable Vehicle Re-identification",
+      authors: "Zhenyu Kuang, Hongyang Zhang, Lidong Cheng, Yinhao Liu, Yue Huang, Xinghao Ding",
+      venue: "arXiv preprint 2024",
+      year: "2024",
+      type: "Preprint",
+      selected: true,
+      description: "A multi-expert knowledge confrontation and collaboration framework for generalizable vehicle re-identification."
+    },
+    {
       title: "Position-Aware Self-Supervised Representation Learning For Cross-Mode Radar Signal Recognition",
       authors: "Hongyang Zhang, Haitao Zhang, Yinhao Liu, et al.",
       venue: "ICASSP 2026 (accepted, CCF-B)",
@@ -68,6 +77,15 @@ window.siteData = {
       type: "Conference",
       selected: true,
       description: "A position-aware self-supervised representation learning method for cross-mode radar signal recognition."
+    },
+    {
+      title: "PRADA: Prompt-guided Representation Alignment and Dynamic Adaption for Time Series Forecasting",
+      authors: "Yinhao Liu, Zhenyu Kuang, Hongyang Zhang, Chen Li, Feifei Li, Xinghao Ding",
+      venue: "Knowledge-Based Systems 2025",
+      year: "2025",
+      type: "Journal",
+      selected: true,
+      description: "A prompt-guided representation alignment and dynamic adaption framework for time series forecasting."
     }
   ],
   news: [
