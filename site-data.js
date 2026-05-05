@@ -20,10 +20,8 @@ window.siteData = {
     { label: "Email", href: "mailto:hongyangzhang1@link.cuhk.edu.cn" }
   ],
   about: [
-    "Welcome to my academic homepage.",
-    "I am currently a PhD student at The Chinese University of Hong Kong, Shenzhen, working in <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Laboratory of Sensing and Communication for Smart Cities</strong></a> and supervised by <strong>Man-On Pun</strong>. My research focuses on GeoAI, multi-modal learning, and cross-view learning, with particular interest in visual geo-localization and remote sensing image understanding.",
-    "Before joining CUHKSZ, I was with <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a> at Xiamen University, supervised by <strong>Xinghao Ding</strong>, where I worked on related problems in signal processing and intelligent perception.",
-    "A central theme in my recent work is UAV geo-localization, especially matching UAV-view imagery with satellite-view imagery under challenging real-world conditions. I am interested in robust representation learning, structural reasoning, and information-theoretic methods for better generalization across views and domains."
+    "Welcome to my academic homepage. I am currently a PhD student at The Chinese University of Hong Kong, Shenzhen, working in <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Laboratory of Sensing and Communication for Smart Cities</strong></a> and supervised by <strong>Man-On Pun</strong>. My research focuses on GeoAI, multi-modal learning, and cross-view learning, with particular interest in visual geo-localization and remote sensing image understanding.",
+    "Before joining CUHKSZ, I was with <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a> at Xiamen University, supervised by <strong>Xinghao Ding</strong>, where I worked on related problems in signal processing and intelligent perception."
   ],
   publications: [
     {

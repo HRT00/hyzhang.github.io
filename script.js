@@ -77,23 +77,6 @@
     .filter((pub) => pub.selected)
     .forEach((pub) => selected.appendChild(renderPublication(pub)));
 
-  const allPublications = document.getElementById("all-publications-list");
-  function renderAllPublications(filter = "all") {
-    allPublications.innerHTML = "";
-    data.publications
-      .filter((pub) => filter === "all" || pub.type === filter)
-      .forEach((pub) => allPublications.appendChild(renderPublication(pub)));
-  }
-  renderAllPublications();
-
-  document.querySelectorAll(".filter").forEach((button) => {
-    button.addEventListener("click", () => {
-      document.querySelectorAll(".filter").forEach((item) => item.classList.remove("active"));
-      button.classList.add("active");
-      renderAllPublications(button.dataset.filter);
-    });
-  });
-
   const news = document.getElementById("news-list");
   data.news.forEach((item) => {
     const row = make("div", "news-item");
