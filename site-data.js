@@ -65,7 +65,7 @@ window.siteData = {
     {
       title: "PRADA: Prompt-guided Representation Alignment and Dynamic Adaption for Time Series Forecasting",
       authors: "Yinhao Liu, Zhenyu Kuang, Hongyang Zhang, Chen Li, Feifei Li, Xinghao Ding",
-      venue: "Knowledge-Based Systems 2025 (Accepted, JCR-Q1, IF=7.6)",
+      venue: "Knowledge-Based Systems 2025 (Accepted, JCR-Q1)",
       year: "2025",
       type: "Journal",
       selected: true,
@@ -74,7 +74,7 @@ window.siteData = {
     {
       title: "AIVR-Net: Attribute-based invariant visual representation learning for vehicle re-identification",
       authors: "Hongyang Zhang, Zhenyu Kuang, Lidong Cheng, Yinhao Liu, Xinghao Ding, Yue Huang",
-      venue: "Knowledge-Based Systems 2024 (Accepted, JCR-Q1, IF=7.6)",
+      venue: "Knowledge-Based Systems 2024 (Accepted, JCR-Q1)",
       year: "2024",
       type: "Journal",
       selected: true,
