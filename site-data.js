@@ -34,18 +34,18 @@ window.siteData = {
       description: "An information-theoretic object-centric framework for cross-view UAV geo-localization, designed to improve robustness and generalization across regions, viewpoints, and weather conditions."
     },
     {
-      title: "BEVGeo: Unified 3D-Aware UAV-based Unsupervised Geo-localization via BEV Semantic Consistency (Under Review)",
+      title: "BEVGeo: Unified 3D-Aware UAV-based Unsupervised Geo-localization via BEV Semantic Consistency",
       authors: "Hongyang Zhang, Hongrui Yin, Xianping Ma, et al.",
-      venue: "",
+      venue: "Under Review",
       year: "2026",
       type: "Journal",
       selected: true,
       description: ""
     },
     {
-      title: "GeoLink: A 3D-Aware Framework Towards Better Generalization in Cross-View Geo-Localization (Under Review)",
+      title: "GeoLink: A 3D-Aware Framework Towards Better Generalization in Cross-View Geo-Localization",
       authors: "Hongyang Zhang, Yinhao Liu, Haitao Zhang, et al.",
-      venue: "",
+      venue: "Under Review",
       year: "2026",
       type: "Conference",
       selected: true,
