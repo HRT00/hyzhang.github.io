@@ -94,17 +94,6 @@
     });
   });
 
-  const projects = document.getElementById("projects-list");
-  data.projects.forEach((project) => {
-    const card = make("article", "project");
-    const title = make("h3", "", project.name);
-    const tags = make("div", "tag-row");
-    project.tags.forEach((tag) => tags.appendChild(make("span", "tag", tag)));
-    const text = make("p", "", project.text);
-    card.append(title, tags, text);
-    projects.appendChild(card);
-  });
-
   const news = document.getElementById("news-list");
   data.news.forEach((item) => {
     const row = make("div", "news-item");

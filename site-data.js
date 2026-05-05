@@ -21,8 +21,8 @@ window.siteData = {
   ],
   about: [
     "Welcome to my academic homepage.",
-    "I am currently a PhD student at The Chinese University of Hong Kong, Shenzhen, supervised by <strong>Man-On Pun</strong>. My research focuses on GeoAI, multi-modal learning, and cross-view learning, with particular interest in visual geo-localization and remote sensing image understanding. Lab: <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Man-On Pun Lab</strong></a>.",
-    "Before joining CUHKSZ, I was with the SmartDSP Lab at Xiamen University, supervised by <strong>Xinghao Ding</strong>, where I worked on related problems in signal processing and intelligent perception. Previous: Xiamen University, SmartDSP Lab. Lab: <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a>.",
+    "I am currently a PhD student at The Chinese University of Hong Kong, Shenzhen, working in <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Man-On Pun Lab</strong></a> and supervised by <strong>Man-On Pun</strong>. My research focuses on GeoAI, multi-modal learning, and cross-view learning, with particular interest in visual geo-localization and remote sensing image understanding.",
+    "Before joining CUHKSZ, I was with <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a> at Xiamen University, supervised by <strong>Xinghao Ding</strong>, where I worked on related problems in signal processing and intelligent perception.",
     "A central theme in my recent work is UAV geo-localization, especially matching UAV-view imagery with satellite-view imagery under challenging real-world conditions. I am interested in robust representation learning, structural reasoning, and information-theoretic methods for better generalization across views and domains."
   ],
   publications: [
@@ -76,24 +76,13 @@ window.siteData = {
     { date: "2026-05", text: "InfoGeo was accepted by ICML 2026." },
     { date: "2026-04", text: "Position-Aware Self-Supervised Representation Learning for Cross-Mode Radar Signal Recognition was accepted by ICASSP 2026." }
   ],
-  projects: [
-    {
-      name: "InfoGeo",
-      tags: ["CVGL", "UAV", "OCL", "Information Bottleneck"],
-      text: "A research project on generalizable UAV geo-localization that separates view-invariant geographic structure from view-specific interference."
-    },
-    {
-      name: "Cross-View Concept Reasoner",
-      tags: ["Attention", "Graph Reasoning", "Retrieval"],
-      text: "A plug-and-play reasoning module with adaptive concept selection and structural relation alignment across views."
-    }
-  ],
   honors: [
     "Add your honors, scholarships, competition awards, or outstanding student distinctions here."
   ],
   service: [
-    "Reviewer / student volunteer entries can be added here.",
-    "Teaching assistant, lab service, and community activities can be listed here."
+    "Reviewer for AAAI",
+    "Reviewer for Pattern Recognition Letters",
+    "Reviewer for IEEE Internet of Things Journal"
   ],
   cv: [
     { label: "Education", text: "Add your degree, department, university, and dates." },

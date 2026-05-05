@@ -149,7 +149,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.18rem;
+  gap: 0.5rem;
 }
 
 .name-en {
