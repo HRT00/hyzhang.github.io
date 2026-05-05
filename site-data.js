@@ -87,7 +87,8 @@ window.siteData = {
       year: "2024",
       type: "Preprint",
       selected: true,
-      description: "A multi-expert knowledge confrontation and collaboration framework for generalizable vehicle re-identification."
+      description: "A multi-expert knowledge confrontation and collaboration framework for generalizable vehicle re-identification.",
+      link: "https://arxiv.org/abs/2407.07351"
     }
   ],
   news: [
