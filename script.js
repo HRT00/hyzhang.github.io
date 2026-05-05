@@ -133,17 +133,6 @@
     cv.appendChild(row);
   });
 
-  const visitorMapContent = document.getElementById("visitor-map-content");
-  if (visitorMapContent) {
-    if (data.visitorMapHtml) {
-      visitorMapContent.innerHTML = data.visitorMapHtml;
-    } else {
-      const placeholder = make("p", "visitor-map-placeholder");
-      placeholder.innerHTML = data.visitorMapPlaceholder;
-      visitorMapContent.appendChild(placeholder);
-    }
-  }
-
   document.querySelector(".theme-toggle").addEventListener("click", () => {
     const next = root.dataset.theme === "dark" ? "" : "dark";
     if (next) {
