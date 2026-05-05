@@ -93,13 +93,14 @@ window.siteData = {
   ],
   news: [
     { date: "2026-05", icon: "🎉", text: "InfoGeo was accepted by ICML 2026." },
-    { date: "2026-04", icon: "📜", text: "Position-Aware Self-Supervised Representation Learning for Cross-Mode Radar Signal Recognition was accepted by ICASSP 2026." },
+    { date: "2026-01", icon: "📜", text: "RadarPos was accepted by ICASSP 2026." },
+    { date: "2025-09", icon: "🏆", text: "Wining the 3rd place in 7th Large-Scale Video Object Segmentation Challenge, VOS Track ICCV 2025." },
     { date: "2024-01", icon: "🔥", text: "AIVR-Net was accepted by Knowledge-Based Systems." }
   ],
   honors: [
     "2025: <strong>Outstanding Postgraduate of Xiamen University</strong>",
     "2024: <strong>National Scholarship for Postgraduate Student</strong>",
-    "2025: <strong>3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track (ICCV 2025)</strong>"
+    "2025: <strong>3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track ICCV 2025</strong>"
   ],
   service: [
     "Reviewer for AAAI, Pattern Recognition Letters, and IEEE Internet of Things Journal."
