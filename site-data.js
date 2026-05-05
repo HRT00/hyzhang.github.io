@@ -3,7 +3,7 @@ window.siteData = {
   nameZh: "\u7ae0\u5f18\u9633",
   role: "PhD Student in Computer Vision, Remote Sensing, and Geo-Localization",
   affiliation: "The Chinese University of Hong Kong, Shenzhen",
-  previousAffiliation: "Xiamen University, SmartDSP Lab",
+  previousAffiliation: "",
   location: "China",
   email: "hongyangzhang1@link.cuhk.edu.cn",
   avatarText: "HZ",
@@ -17,13 +17,41 @@ window.siteData = {
   links: [
     { label: "Google Scholar", href: "https://scholar.google.com/citations?user=35tLJkoAAAAJ&hl=en" },
     { label: "GitHub", href: "https://github.com/hyzhang" },
-    { label: "CV", href: "#cv" },
     { label: "Email", href: "mailto:hongyangzhang1@link.cuhk.edu.cn" }
   ],
   about: [
     "I am currently a PhD student at The Chinese University of Hong Kong, Shenzhen, supervised by Man-On Pun. My research focuses on GeoAI, multi-modal learning, and cross-view learning, with particular interest in visual geo-localization and remote sensing image understanding. Lab: <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\">Man-On Pun Lab</a>.",
-    "Before joining CUHKSZ, I was with the SmartDSP Lab at Xiamen University, supervised by Xinghao Ding, where I worked on related problems in signal processing and intelligent perception. Lab: <a href=\"https://xmu-smartdsp.github.io/\">SmartDSP Lab</a>.",
+    "Before joining CUHKSZ, I was with the SmartDSP Lab at Xiamen University, supervised by Xinghao Ding, where I worked on related problems in signal processing and intelligent perception. Previous: Xiamen University, SmartDSP Lab. Lab: <a href=\"https://xmu-smartdsp.github.io/\">SmartDSP Lab</a>.",
     "A central theme in my recent work is UAV geo-localization, especially matching UAV-view imagery with satellite-view imagery under challenging real-world conditions. I am interested in robust representation learning, structural reasoning, and information-theoretic methods for better generalization across views and domains."
+  ],
+  researchAreas: [
+    {
+      title: "GeoAI",
+      summary: "I study spatial intelligence for remote sensing and geo-localization, with a focus on learning robust scene representations across large viewpoint and domain gaps.",
+      points: [
+        "UAV-to-satellite geo-localization and spatial intelligence",
+        "Remote sensing image understanding and robust representation learning",
+        "Generalization across regions, weather, and scales"
+      ]
+    },
+    {
+      title: "Multi-modal Learning",
+      summary: "My work explores how complementary modalities can be aligned to improve perception, retrieval, and recognition in challenging real-world settings.",
+      points: [
+        "Cross-modal representation learning for visual and signal data",
+        "Semantic consistency across heterogeneous observations",
+        "Robust matching under modality gap and incomplete supervision"
+      ]
+    },
+    {
+      title: "Cross-View Learning",
+      summary: "I am interested in cross-view representation learning for matching and reasoning across UAV, satellite, ground, and other heterogeneous views.",
+      points: [
+        "Cross-view geo-localization with 3D-aware and object-centric reasoning",
+        "View-invariant representation learning with structural constraints",
+        "Better generalization across unseen scenes and domains"
+      ]
+    }
   ],
   publications: [
     {
@@ -74,7 +102,6 @@ window.siteData = {
   ],
   news: [
     { date: "2026-05", text: "InfoGeo was accepted by ICML 2026." },
-    { date: "2026-05", text: "This academic homepage was launched and customized for my current research profile." },
     { date: "2026-04", text: "Position-Aware Self-Supervised Representation Learning for Cross-Mode Radar Signal Recognition was accepted by ICASSP 2026." }
   ],
   projects: [
@@ -97,5 +124,8 @@ window.siteData = {
     { label: "Education", text: "Add your degree, department, university, and dates." },
     { label: "Research", text: "Computer vision, remote sensing, visual geo-localization, cross-view matching, and robust representation learning." },
     { label: "Skills", text: "PyTorch, deep learning, image retrieval, remote sensing image analysis, and academic writing." }
-  ]
+  ],
+  visitorMapHtml: "",
+  visitorMapPlaceholder:
+    "To enable a live global visitor map on GitHub Pages, paste your widget embed code here after creating one with a service such as <a href=\"https://clustrmaps.com/\" target=\"_blank\" rel=\"noreferrer\">ClustrMaps</a> or <a href=\"https://www.flagcounter.com/\" target=\"_blank\" rel=\"noreferrer\">Flag Counter</a> for https://hrt00.github.io/hyzhang.github.io/."
 };

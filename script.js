@@ -61,6 +61,17 @@
     about.appendChild(paragraph);
   });
 
+  const researchList = document.getElementById("research-list");
+  data.researchAreas.forEach((area) => {
+    const article = make("article", "research-item");
+    const title = make("h3", "", area.title);
+    const summary = make("p", "research-summary", area.summary);
+    const points = make("ul", "research-points");
+    area.points.forEach((point) => points.appendChild(make("li", "", point)));
+    article.append(title, summary, points);
+    researchList.appendChild(article);
+  });
+
   function renderPublication(pub) {
     const article = make("article", "publication");
     const title = make("h3", "", pub.title);
@@ -121,6 +132,17 @@
     row.append(make("h3", "", item.label), make("p", "", item.text));
     cv.appendChild(row);
   });
+
+  const visitorMapContent = document.getElementById("visitor-map-content");
+  if (visitorMapContent) {
+    if (data.visitorMapHtml) {
+      visitorMapContent.innerHTML = data.visitorMapHtml;
+    } else {
+      const placeholder = make("p", "visitor-map-placeholder");
+      placeholder.innerHTML = data.visitorMapPlaceholder;
+      visitorMapContent.appendChild(placeholder);
+    }
+  }
 
   document.querySelector(".theme-toggle").addEventListener("click", () => {
     const next = root.dataset.theme === "dark" ? "" : "dark";
