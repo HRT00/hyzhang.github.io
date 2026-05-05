@@ -298,6 +298,10 @@ a {
   font-size: 0.94rem;
 }
 
+.publication-link {
+  margin-top: 0.35rem;
+}
+
 .author-highlight {
   text-decoration: underline;
   text-underline-offset: 0.14em;

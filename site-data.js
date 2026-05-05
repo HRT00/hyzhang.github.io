@@ -35,7 +35,7 @@ window.siteData = {
     },
     {
       title: "BEVGeo: Unified 3D-Aware UAV-based Unsupervised Geo-localization via BEV Semantic Consistency",
-      authors: "Hongyang Zhang, Hongrui Yin, Xianping Ma, et al.",
+      authors: "Hongyang Zhang, Hongrui Yin, Maonan Wang, Ziyao Wang, Ziyi Wang, Xianpin Ma, Man-on Pun",
       venue: "Under Review",
       year: "2026",
       type: "Journal",
@@ -44,16 +44,17 @@ window.siteData = {
     },
     {
       title: "GeoLink: A 3D-Aware Framework Towards Better Generalization in Cross-View Geo-Localization",
-      authors: "Hongyang Zhang, Yinhao Liu, Haitao Zhang, et al.",
+      authors: "Hongyang Zhang, Yinhao Liu, Haitao Zhang, Zhongyi Wen, Zhenyu Kuang, Shuxian Liang, Xiansheng Hua",
       venue: "Under Review",
       year: "2026",
       type: "Conference",
       selected: true,
-      description: ""
+      description: "",
+      link: "https://arxiv.org/abs/2604.13183"
     },
     {
       title: "AIVR-Net: Attribute-based invariant visual representation learning for vehicle re-identification",
-      authors: "Hongyang Zhang, Zhenyu Kuang, Lidong Cheng, et al.",
+      authors: "Hongyang Zhang, Zhenyu Kuang, Lidong Cheng, Yinhao Liu, Xinghao Ding, Yue Huang",
       venue: "Knowledge-Based Systems 2024 (ACCEPTED, JCR-Q1, IF=7.6)",
       year: "2024",
       type: "Journal",
@@ -71,12 +72,13 @@ window.siteData = {
     },
     {
       title: "Position-Aware Self-Supervised Representation Learning For Cross-Mode Radar Signal Recognition",
-      authors: "Hongyang Zhang, Haitao Zhang, Yinhao Liu, et al.",
+      authors: "Hongyang Zhang, Haitao Zhang, Yinhao Liu, Kunjie Lin, Yue Huang, Xinghao Ding",
       venue: "ICASSP 2026 (ACCEPTED, CCF-B)",
       year: "2026",
       type: "Conference",
       selected: true,
-      description: "A position-aware self-supervised representation learning method for cross-mode radar signal recognition."
+      description: "A position-aware self-supervised representation learning method for cross-mode radar signal recognition.",
+      link: "https://arxiv.org/pdf/2602.11196"
     },
     {
       title: "PRADA: Prompt-guided Representation Alignment and Dynamic Adaption for Time Series Forecasting",

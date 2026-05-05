@@ -70,10 +70,15 @@
       '<span class="author-highlight">Hongyang Zhang</span>'
     );
     const venue = make("p", "meta venue", pub.venue);
+    const link = make("p", "meta publication-link");
 
     article.append(title, authors);
     if (pub.venue) {
       article.append(venue);
+    }
+    if (pub.link) {
+      link.innerHTML = `<em><a href="${pub.link}" target="_blank" rel="noreferrer">Link</a></em>`;
+      article.append(link);
     }
     return article;
   }
