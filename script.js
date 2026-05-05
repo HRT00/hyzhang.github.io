@@ -65,7 +65,7 @@
     const article = make("article", "publication");
     const title = make("h3", "", pub.title);
     const authors = make("p", "meta", pub.authors);
-    const venue = make("p", "meta venue", `${pub.venue} | ${pub.year}`);
+    const venue = make("p", "meta venue", pub.venue);
     const description = make("p", "description", pub.description);
 
     article.append(title, authors, venue, description);
