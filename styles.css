@@ -276,36 +276,9 @@ a {
 
 .publication-list,
 .news-list,
-.cv-list,
-.research-list {
+.cv-list {
   display: grid;
   gap: 1rem;
-}
-
-.research-item {
-  padding: 1rem 0 1.2rem;
-  border-bottom: 1px solid color-mix(in srgb, var(--line) 70%, transparent);
-}
-
-.research-item h3 {
-  margin: 0 0 0.45rem;
-  font-size: 1.08rem;
-  line-height: 1.35;
-}
-
-.research-summary {
-  margin: 0 0 0.7rem;
-  color: var(--muted);
-}
-
-.research-points {
-  margin: 0;
-  padding-left: 1.2rem;
-  color: var(--muted);
-}
-
-.research-points li + li {
-  margin-top: 0.34rem;
 }
 
 .publication {

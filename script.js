@@ -61,17 +61,6 @@
     about.appendChild(paragraph);
   });
 
-  const researchList = document.getElementById("research-list");
-  data.researchAreas.forEach((area) => {
-    const article = make("article", "research-item");
-    const title = make("h3", "", area.title);
-    const summary = make("p", "research-summary", area.summary);
-    const points = make("ul", "research-points");
-    area.points.forEach((point) => points.appendChild(make("li", "", point)));
-    article.append(title, summary, points);
-    researchList.appendChild(article);
-  });
-
   function renderPublication(pub) {
     const article = make("article", "publication");
     const title = make("h3", "", pub.title);
@@ -122,6 +111,9 @@
     row.append(make("div", "news-date", item.date), make("div", "news-text", item.text));
     news.appendChild(row);
   });
+
+  const honors = document.getElementById("honors-list");
+  data.honors.forEach((item) => honors.appendChild(make("li", "", item)));
 
   const service = document.getElementById("service-list");
   data.service.forEach((item) => service.appendChild(make("li", "", item)));

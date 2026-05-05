@@ -25,35 +25,6 @@ window.siteData = {
     "Before joining CUHKSZ, I was with the SmartDSP Lab at Xiamen University, supervised by <strong>Xinghao Ding</strong>, where I worked on related problems in signal processing and intelligent perception. Previous: Xiamen University, SmartDSP Lab. Lab: <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a>.",
     "A central theme in my recent work is UAV geo-localization, especially matching UAV-view imagery with satellite-view imagery under challenging real-world conditions. I am interested in robust representation learning, structural reasoning, and information-theoretic methods for better generalization across views and domains."
   ],
-  researchAreas: [
-    {
-      title: "GeoAI",
-      summary: "I study spatial intelligence for remote sensing and geo-localization, with a focus on learning robust scene representations across large viewpoint and domain gaps.",
-      points: [
-        "UAV-to-satellite geo-localization and spatial intelligence",
-        "Remote sensing image understanding and robust representation learning",
-        "Generalization across regions, weather, and scales"
-      ]
-    },
-    {
-      title: "Multi-modal Learning",
-      summary: "My work explores how complementary modalities can be aligned to improve perception, retrieval, and recognition in challenging real-world settings.",
-      points: [
-        "Cross-modal representation learning for visual and signal data",
-        "Semantic consistency across heterogeneous observations",
-        "Robust matching under modality gap and incomplete supervision"
-      ]
-    },
-    {
-      title: "Cross-View Learning",
-      summary: "I am interested in cross-view representation learning for matching and reasoning across UAV, satellite, ground, and other heterogeneous views.",
-      points: [
-        "Cross-view geo-localization with 3D-aware and object-centric reasoning",
-        "View-invariant representation learning with structural constraints",
-        "Better generalization across unseen scenes and domains"
-      ]
-    }
-  ],
   publications: [
     {
       title: "InfoGeo: Information-Theoretic Object-Centric Learning for Cross-View Generalizable UAV Geo-Localization",
@@ -116,6 +87,9 @@ window.siteData = {
       tags: ["Attention", "Graph Reasoning", "Retrieval"],
       text: "A plug-and-play reasoning module with adaptive concept selection and structural relation alignment across views."
     }
+  ],
+  honors: [
+    "Add your honors, scholarships, competition awards, or outstanding student distinctions here."
   ],
   service: [
     "Reviewer / student volunteer entries can be added here.",
