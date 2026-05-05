@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hongyang Zhang</title>
+    <meta name="description" content="Academic homepage for a researcher in computer vision, remote sensing, and geo-localization.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#about" data-field="name">Hongyang Zhang</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#news">News</a>
+        <a href="#service">Service</a>
+        <a href="#cv">CV</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="theme-icon" aria-hidden="true">T</span>
+      </button>
+    </header>
+
+    <main class="layout">
+      <aside class="profile" aria-label="Profile">
+        <div class="portrait" aria-hidden="true">
+          <img class="portrait-image" id="portrait-image" alt="Portrait of Hongyang Zhang">
+          <span data-field="avatarText">HZ</span>
+        </div>
+        <h1 data-field="name">Hongyang Zhang</h1>
+        <p class="role" data-field="role">Researcher in Computer Vision, Remote Sensing, and Geo-Localization</p>
+        <p class="affiliation" data-field="affiliation">The Chinese University of Hong Kong, Shenzhen</p>
+        <p class="location" data-field="location">China</p>
+
+        <section class="profile-block">
+          <h2>Research Interests</h2>
+          <div class="chips" id="interests"></div>
+        </section>
+
+        <section class="profile-block">
+          <h2>Links</h2>
+          <div class="links" id="links"></div>
+        </section>
+      </aside>
+
+      <section class="content">
+        <section id="about" class="section">
+          <div class="section-heading">
+            <h2>About</h2>
+          </div>
+          <div id="about-content" class="prose"></div>
+        </section>
+
+        <section id="publications" class="section">
+          <div class="section-heading inline-heading">
+            <h2>Selected Publications</h2>
+            <a href="#all-publications">View All</a>
+          </div>
+          <div id="selected-publications" class="publication-list"></div>
+        </section>
+
+        <section id="projects" class="section">
+          <div class="section-heading">
+            <h2>Projects</h2>
+          </div>
+          <div id="projects-list" class="project-grid"></div>
+        </section>
+
+        <section id="news" class="section">
+          <div class="section-heading">
+            <h2>News</h2>
+          </div>
+          <div id="news-list" class="news-list"></div>
+        </section>
+
+        <section id="all-publications" class="section">
+          <div class="section-heading">
+            <h2>All Publications</h2>
+          </div>
+          <div class="filters" role="group" aria-label="Publication filters">
+            <button type="button" class="filter active" data-filter="all">All</button>
+            <button type="button" class="filter" data-filter="Conference">Conference</button>
+            <button type="button" class="filter" data-filter="Journal">Journal</button>
+            <button type="button" class="filter" data-filter="Preprint">Preprint</button>
+          </div>
+          <div id="all-publications-list" class="publication-list"></div>
+        </section>
+
+        <section id="service" class="section">
+          <div class="section-heading">
+            <h2>Service</h2>
+          </div>
+          <ul id="service-list" class="simple-list"></ul>
+        </section>
+
+        <section id="cv" class="section">
+          <div class="section-heading">
+            <h2>CV</h2>
+          </div>
+          <div id="cv-list" class="cv-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Last updated: <span data-field="lastUpdated">May 5, 2026</span></span>
+      <a href="https://github.com/xyjoey/PRISM">Inspired by PRISM</a>
+    </footer>
+
+    <script src="site-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
