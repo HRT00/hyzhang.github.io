@@ -1,9 +1,9 @@
 window.siteData = {
   name: "Hongyang Zhang",
   nameZh: "\u7ae0\u5f18\u9633",
-  role: "Researcher in Computer Vision, Remote Sensing, and Geo-Localization",
+  role: "PhD Student in Computer Vision, Remote Sensing, and Geo-Localization",
   affiliation: "The Chinese University of Hong Kong, Shenzhen",
-  previousAffiliation: "",
+  previousAffiliation: "Xiamen University, SmartDSP Lab",
   location: "China",
   email: "hongyangzhang1@link.cuhk.edu.cn",
   avatarText: "HZ",
@@ -21,8 +21,9 @@ window.siteData = {
     { label: "Email", href: "mailto:hongyangzhang1@link.cuhk.edu.cn" }
   ],
   about: [
-    "I work on computer vision and remote sensing, with a focus on visual geo-localization and cross-view image understanding. My research studies how to build robust representations that can generalize across viewpoint, region, weather, and scale changes.",
-    "A central theme in my recent work is UAV geo-localization, especially matching UAV-view imagery with satellite-view imagery under challenging real-world conditions. I am particularly interested in object-centric learning, structural reasoning, and information-theoretic objectives for robust cross-view representation learning."
+    "I am currently a PhD student at The Chinese University of Hong Kong, Shenzhen, supervised by Man-On Pun. My research focuses on GeoAI, multi-modal learning, and cross-view learning, with particular interest in visual geo-localization and remote sensing image understanding. Lab: <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\">Man-On Pun Lab</a>.",
+    "Before joining CUHKSZ, I was with the SmartDSP Lab at Xiamen University, supervised by Xinghao Ding, where I worked on related problems in signal processing and intelligent perception. Lab: <a href=\"https://xmu-smartdsp.github.io/\">SmartDSP Lab</a>.",
+    "A central theme in my recent work is UAV geo-localization, especially matching UAV-view imagery with satellite-view imagery under challenging real-world conditions. I am interested in robust representation learning, structural reasoning, and information-theoretic methods for better generalization across views and domains."
   ],
   publications: [
     {

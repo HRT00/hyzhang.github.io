@@ -55,7 +55,11 @@
   });
 
   const about = document.getElementById("about-content");
-  data.about.forEach((text) => about.appendChild(make("p", "", text)));
+  data.about.forEach((text) => {
+    const paragraph = make("p", "");
+    paragraph.innerHTML = text;
+    about.appendChild(paragraph);
+  });
 
   function renderPublication(pub) {
     const article = make("article", "publication");
