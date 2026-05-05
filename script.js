@@ -71,7 +71,10 @@
     );
     const venue = make("p", "meta venue", pub.venue);
 
-    article.append(title, authors, venue);
+    article.append(title, authors);
+    if (pub.venue) {
+      article.append(venue);
+    }
     return article;
   }
 

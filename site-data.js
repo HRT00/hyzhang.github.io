@@ -36,7 +36,7 @@ window.siteData = {
     {
       title: "BEVGeo: Unified 3D-Aware UAV-based Unsupervised Geo-localization via BEV Semantic Consistency (Under Review)",
       authors: "Hongyang Zhang, Hongrui Yin, Xianping Ma, et al.",
-      venue: "ISPRS Journal (under review, IF=12.7)",
+      venue: "",
       year: "2026",
       type: "Journal",
       selected: true,
@@ -45,7 +45,7 @@ window.siteData = {
     {
       title: "GeoLink: A 3D-Aware Framework Towards Better Generalization in Cross-View Geo-Localization (Under Review)",
       authors: "Hongyang Zhang, Yinhao Liu, Haitao Zhang, et al.",
-      venue: "ACM MM 2026 (under review)",
+      venue: "",
       year: "2026",
       type: "Conference",
       selected: true,
