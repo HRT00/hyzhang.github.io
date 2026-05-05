@@ -4,7 +4,7 @@ window.siteData = {
   role: "Artifical Intelligence",
   affiliation: "The Chinese University of Hong Kong, Shenzhen",
   previousAffiliation: "",
-  location: "China",
+  location: "Shenzhen, China",
   email: "hongyangzhang1@link.cuhk.edu.cn",
   avatarText: "HZ",
   avatarImage: "images/hongyang-zhang.jpg",
@@ -20,8 +20,9 @@ window.siteData = {
     { label: "Email", href: "mailto:hongyangzhang1@link.cuhk.edu.cn" }
   ],
   about: [
-    "I am currently a PhD student at The Chinese University of Hong Kong, Shenzhen, supervised by Man-On Pun. My research focuses on GeoAI, multi-modal learning, and cross-view learning, with particular interest in visual geo-localization and remote sensing image understanding. Lab: <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\">Man-On Pun Lab</a>.",
-    "Before joining CUHKSZ, I was with the SmartDSP Lab at Xiamen University, supervised by Xinghao Ding, where I worked on related problems in signal processing and intelligent perception. Previous: Xiamen University, SmartDSP Lab. Lab: <a href=\"https://xmu-smartdsp.github.io/\">SmartDSP Lab</a>.",
+    "Welcome to my academic homepage.",
+    "I am currently a PhD student at The Chinese University of Hong Kong, Shenzhen, supervised by <strong>Man-On Pun</strong>. My research focuses on GeoAI, multi-modal learning, and cross-view learning, with particular interest in visual geo-localization and remote sensing image understanding. Lab: <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Man-On Pun Lab</strong></a>.",
+    "Before joining CUHKSZ, I was with the SmartDSP Lab at Xiamen University, supervised by <strong>Xinghao Ding</strong>, where I worked on related problems in signal processing and intelligent perception. Previous: Xiamen University, SmartDSP Lab. Lab: <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a>.",
     "A central theme in my recent work is UAV geo-localization, especially matching UAV-view imagery with satellite-view imagery under challenging real-world conditions. I am interested in robust representation learning, structural reasoning, and information-theoretic methods for better generalization across views and domains."
   ],
   researchAreas: [
