@@ -148,21 +148,21 @@ a {
 .profile-name {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.18rem;
 }
 
 .name-en {
   font-size: clamp(1.38rem, 2vw, 1.72rem);
   font-weight: 700;
-  text-align: center;
+  text-align: left;
 }
 
 .name-zh {
   font-size: clamp(1.38rem, 2vw, 1.72rem);
   font-weight: 700;
   color: var(--muted);
-  text-align: center;
+  text-align: left;
 }
 
 .role,

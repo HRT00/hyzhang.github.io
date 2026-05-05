@@ -1,7 +1,7 @@
 window.siteData = {
   name: "Hongyang Zhang",
   nameZh: "\u7ae0\u5f18\u9633",
-  role: "PhD Student in Computer Vision, Remote Sensing, and Geo-Localization",
+  role: "Artifical Intelligence",
   affiliation: "The Chinese University of Hong Kong, Shenzhen",
   previousAffiliation: "",
   location: "China",
