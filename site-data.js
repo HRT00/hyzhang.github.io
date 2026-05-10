@@ -36,7 +36,7 @@ window.siteData = {
     },
     {
       title: "BEVGeo: Unified 3D-Aware UAV-based Unsupervised Geo-localization via BEV Semantic Consistency",
-      authors: "Hongyang Zhang, Hongrui Yin, Maonan Wang, Ziyao Wang, Ziyi Wang, Xianpin Ma, Man-on Pun",
+      authors: "Hongyang Zhang, Hongrui Yin, Maonan Wang, Ziyao Wang, Ziyi Wang, Xianpin Ma, Man-On Pun",
       venue: "Under Review",
       year: "2026",
       type: "Journal",
@@ -104,7 +104,7 @@ window.siteData = {
     "<strong>2023-2024: National Scholarship for Postgraduate Student</strong>",
   ],
   service: [
-    "Reviewer for AAAI, Pattern Recognition Letters, and IEEE Internet of Things Journal."
+    "Reviewer for AAAI, TNNLS, IEEE Internet of Things, and Pattern Recognition Letters."
   ],
   cv: [
     { label: "Education", text: "Add your degree, department, university, and dates." },
