@@ -93,6 +93,7 @@ window.siteData = {
     }
   ],
   news: [
+    { date: "2026-06", icon: "🎉", text: "One paper about Cloud Removal was accepted by ECCV 2026." },
     { date: "2026-05", icon: "🎉", text: "InfoGeo (UAV Cross-View Geo-Localization) was accepted by ICML 2026." },
     { date: "2026-01", icon: "📜", text: "RadarPos (Machine Learning for Radar Signal) was accepted by ICASSP 2026." },
     { date: "2025-09", icon: "🏆", text: "Winning the 3rd place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track (ICCV 2025)." },
