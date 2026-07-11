@@ -93,6 +93,7 @@ window.siteData = {
     }
   ],
   news: [
+    { date: "2026-07", icon: "🎉", text: "GeoLink (Generalizable Cross-View Geo-Localization) was accepted by ACMMM 2026." },
     { date: "2026-06", icon: "🎉", text: "One paper about Cloud Removal was accepted by ECCV 2026." },
     { date: "2026-05", icon: "🎉", text: "InfoGeo (UAV Cross-View Geo-Localization) was accepted by ICML 2026." },
     { date: "2026-01", icon: "📜", text: "RadarPos (Machine Learning for Radar Signal) was accepted by ICASSP 2026." },
