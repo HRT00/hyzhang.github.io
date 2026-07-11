@@ -26,6 +26,16 @@ window.siteData = {
   ],
   publications: [
     {
+      title: "GeoLink: A 3D-Aware Framework Towards Better Generalization in Cross-View Geo-Localization",
+      authors: "Hongyang Zhang, Yinhao Liu, Haitao Zhang, Zhongyi Wen, Zhenyu Kuang, Shuxian Liang, Xiansheng Hua",
+      venue: "ACMMM 2026 (Accepted, CCF-A)",
+      year: "2026",
+      type: "Conference",
+      selected: true,
+      description: "",
+      link: "https://arxiv.org/abs/2604.13183"
+    },
+    {
       title: "InfoGeo: Information-Theoretic Object-Centric Learning for Cross-View Generalizable UAV Geo-Localization",
       authors: "Hongyang Zhang, Maonan Wang, Ziyao Wang, Hongrui Yin, Man-On Pun",
       venue: "ICML 2026 (Accepted, CCF-A)",
@@ -42,16 +52,6 @@ window.siteData = {
       type: "Journal",
       selected: true,
       description: ""
-    },
-    {
-      title: "GeoLink: A 3D-Aware Framework Towards Better Generalization in Cross-View Geo-Localization",
-      authors: "Hongyang Zhang, Yinhao Liu, Haitao Zhang, Zhongyi Wen, Zhenyu Kuang, Shuxian Liang, Xiansheng Hua",
-      venue: "Under Review",
-      year: "2026",
-      type: "Conference",
-      selected: true,
-      description: "",
-      link: "https://arxiv.org/abs/2604.13183"
     },
     {
       title: "Position-Aware Self-Supervised Representation Learning For Cross-Mode Radar Signal Recognition",
