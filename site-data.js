@@ -96,9 +96,10 @@ window.siteData = {
     { date: "2026-07", icon: "🎉", text: "GeoLink (Generalizable Cross-View Geo-Localization) was accepted by ACMMM 2026." },
     { date: "2026-06", icon: "🎉", text: "One paper about Cloud Removal was accepted by ECCV 2026." },
     { date: "2026-05", icon: "🎉", text: "InfoGeo (UAV Cross-View Geo-Localization) was accepted by ICML 2026." },
+    { date: "2026-03", icon: "🎉", text: "One paper about Satellite Segmentation was accepted by CVPR Findings 2026." },
     { date: "2026-01", icon: "📜", text: "RadarPos (Machine Learning for Radar Signal) was accepted by ICASSP 2026." },
     { date: "2025-09", icon: "🏆", text: "Winning the 3rd place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track (ICCV 2025)." },
-    { date: "2024-01", icon: "🔥", text: "AIVR-Net (Vehicle Re-identification) was accepted by Knowledge-Based Systems." }
+    // { date: "2024-01", icon: "🔥", text: "AIVR-Net (Vehicle Re-identification) was accepted by Knowledge-Based Systems." }
   ],
   honors: [
     "<strong>2025: 3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track</strong>",
