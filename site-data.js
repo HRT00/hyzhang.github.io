@@ -95,11 +95,11 @@ window.siteData = {
   ],
   news: [
     { date: "2026-07", icon: "🎉", text: "GeoLink (UAV Cross-View Geo-Localization) was accepted by ACMMM 2026." },
-    { date: "2026-06", icon: "🎉", text: "One paper about Cloud Removal was accepted by ECCV 2026." },
+    { date: "2026-06", icon: "👏", text: "One paper about Cloud Removal was accepted by ECCV 2026." },
     { date: "2026-05", icon: "🎉", text: "InfoGeo (UAV Cross-View Geo-Localization) was accepted by ICML 2026." },
-    { date: "2026-03", icon: "🎉", text: "One paper about Satellite Segmentation was accepted by CVPR Findings 2026." },
-    { date: "2026-01", icon: "📜", text: "RadarPos (Machine Learning for Radar Signal) was accepted by ICASSP 2026." },
-    { date: "2025-09", icon: "🏆", text: "Winning the 3rd place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track (ICCV 2025)." },
+    { date: "2026-03", icon: "👏", text: "One paper about Satellite Segmentation was accepted by CVPR Findings 2026." },
+    { date: "2026-01", icon: "🎉", text: "RadarPos (Machine Learning for Radar Signal) was accepted by ICASSP 2026." },
+    { date: "2025-09", icon: "🏆", text: "Winning 3rd place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track (ICCV 2025)." },
     // { date: "2024-01", icon: "🔥", text: "AIVR-Net (Vehicle Re-identification) was accepted by Knowledge-Based Systems." }
   ],
   honors: [
@@ -108,7 +108,8 @@ window.siteData = {
     "<strong>2023-2024: National Scholarship for Postgraduate Student</strong>",
   ],
   service: [
-    "Reviewer for AAAI, TNNLS, IEEE Internet of Things, and Pattern Recognition Letters."
+    "Conference Reviewer: AAAI (2026, 2027), ACMMM (2026)",
+    "Conference Reviewer: IEEE TNNLS, IEEE Internet of Things, IEEE JSTARS, Pattern Recognition Letters."
   ],
   cv: [
     { label: "Education", text: "Add your degree, department, university, and dates." },
