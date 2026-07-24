@@ -8,7 +8,7 @@ window.siteData = {
   email: "hongyangzhang1@link.cuhk.edu.cn",
   avatarText: "HZ",
   avatarImage: "images/hongyang-zhang.jpg",
-  lastUpdated: "July 24, 2026",
+  lastUpdated: "July 25, 2026",
   interests: [
     "GeoAI",
     "Multi-modal Perception & Reasoning",
@@ -20,7 +20,7 @@ window.siteData = {
     { label: "Email", href: "mailto:hongyangzhang1@link.cuhk.edu.cn" }
   ],
   about: [
-    "Welcome to my academic homepage, I am a first-year PhD student at The Chinese University of Hong Kong, Shenzhen, studying in <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Laboratory of Sensing and Communication for Smart Cities</strong></a> and supervised by <a href=\"https://scholar.google.com/citations?user=h82gvswAAAAJ&hl=en&oi=ao\"><strong>Prof. Man-On Pun</strong></a>. Before joining CUHK-Shenzhen, I was a Master student with <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a> at Xiamen University, supervised by <a href=\"https://scholar.google.com/citations?user=k5hVBfMAAAAJ&hl=en&oi=ao\"><strong>Prof. Xinghao Ding</strong></a>.",
+    "👋 Welcome to my academic homepage, I am a first-year PhD student at The Chinese University of Hong Kong, Shenzhen, studying in <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Laboratory of Sensing and Communication for Smart Cities</strong></a> and supervised by <a href=\"https://scholar.google.com/citations?user=h82gvswAAAAJ&hl=en&oi=ao\"><strong>Prof. Man-On Pun</strong></a>. Before joining CUHK-Shenzhen, I was a Master student with <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a> at Xiamen University, supervised by <a href=\"https://scholar.google.com/citations?user=k5hVBfMAAAAJ&hl=en&oi=ao\"><strong>Prof. Xinghao Ding</strong></a>.",
     "📚 My research focuses on <span class=\"about-highlight\">Cross-View / Video / 3D Generalizable Perception</span> and <span class=\"about-highlight\">Multi-modal Reasoning</span> in UAV and Urban scenarios. I used to work on <strong>Time-series Signal Processing</strong> and <strong>Fine-grained Recognition (Object Re-identification)</strong>.",
     "Starting from June 2026, I work at <a href=\"https://mmlab.ie.cuhk.edu.hk/\"><strong>MMLab@CUHK</strong></a> with <a href=\"https://scholar.google.com/citations?user=BN2Ze-QAAAAJ&hl=en\"><strong>Prof. Hongsheng Li</strong></a> as a visiting student."
   ],
@@ -45,15 +45,15 @@ window.siteData = {
       selected: true,
       description: "An information-theoretic object-centric framework for cross-view UAV geo-localization, designed to improve robustness and generalization across regions, viewpoints, and weather conditions."
     },
-    {
-      title: "BEVGeo: Unified 3D-Aware UAV-based Unsupervised Geo-localization via BEV Semantic Consistency",
-      authors: "Hongyang Zhang, Hongrui Yin, Maonan Wang, Ziyao Wang, Ziyi Wang, Xianpin Ma, Man-On Pun",
-      venue: "Under Review",
-      year: "2026",
-      type: "Journal",
-      selected: true,
-      description: ""
-    },
+    // {
+    //   title: "BEVGeo: Unified 3D-Aware UAV-based Unsupervised Geo-localization via BEV Semantic Consistency",
+    //   authors: "Hongyang Zhang, Hongrui Yin, Maonan Wang, Ziyao Wang, Ziyi Wang, Xianpin Ma, Man-On Pun",
+    //   venue: "Under Review",
+    //   year: "2026",
+    //   type: "Journal",
+    //   selected: true,
+    //   description: ""
+    // },
     {
       title: "Position-Aware Self-Supervised Representation Learning For Cross-Mode Radar Signal Recognition",
       authors: "Hongyang Zhang, Haitao Zhang, Yinhao Liu, Kunjie Lin, Yue Huang, Xinghao Ding",
@@ -95,9 +95,9 @@ window.siteData = {
   ],
   news: [
     { date: "2026-07", icon: "🎉", text: "GeoLink (UAV Cross-View Geo-Localization) was accepted by ACMMM 2026." },
-    { date: "2026-06", icon: "👏", text: "One paper about Cloud Removal was accepted by ECCV 2026." },
+    { date: "2026-06", icon: "🎊", text: "One paper about Cloud Removal was accepted by ECCV 2026." },
     { date: "2026-05", icon: "🎉", text: "InfoGeo (UAV Cross-View Geo-Localization) was accepted by ICML 2026." },
-    { date: "2026-03", icon: "👏", text: "One paper about Satellite Segmentation was accepted by CVPR Findings 2026." },
+    { date: "2026-03", icon: "🎊", text: "One paper about Satellite Segmentation was accepted by CVPR Findings 2026." },
     { date: "2026-01", icon: "🎉", text: "RadarPos (Machine Learning for Radar Signal) was accepted by ICASSP 2026." },
     { date: "2025-09", icon: "🏆", text: "Winning 3rd place in the 7th Large-Scale Video Object Segmentation Challenge, VOS Track (ICCV 2025)." },
     // { date: "2024-01", icon: "🔥", text: "AIVR-Net (Vehicle Re-identification) was accepted by Knowledge-Based Systems." }
