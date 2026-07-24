@@ -41,6 +41,7 @@ window.siteData = {
       venue: "ICML 2026 (Accepted, CCF-A)",
       year: "2026",
       type: "Conference",
+      link: "https://openreview.net/pdf?id=v6xrfEjNQv",
       selected: true,
       description: "An information-theoretic object-centric framework for cross-view UAV geo-localization, designed to improve robustness and generalization across regions, viewpoints, and weather conditions."
     },
