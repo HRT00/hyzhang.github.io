@@ -109,7 +109,7 @@ window.siteData = {
   ],
   service: [
     "Conference Reviewer: AAAI (2026, 2027), ACMMM (2026)",
-    "Conference Reviewer: IEEE TNNLS, IEEE Internet of Things, IEEE JSTARS, Pattern Recognition Letters."
+    "Conference Reviewer: IEEE TNNLS, IEEE J-IOT, IEEE J-STARS, Pattern Recognition Letters."
   ],
   cv: [
     { label: "Education", text: "Add your degree, department, university, and dates." },
