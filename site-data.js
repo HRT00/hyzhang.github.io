@@ -12,7 +12,7 @@ window.siteData = {
   interests: [
     "GeoAI",
     "Multi-modal Perception & Reasoning",
-    "Cross-View Learning"
+    "Cross-View Visual Understanding"
   ],
   links: [
     { label: "Google Scholar", href: "https://scholar.google.com/citations?user=35tLJkoAAAAJ&hl=en" },
@@ -21,7 +21,7 @@ window.siteData = {
   ],
   about: [
     "Welcome to my academic homepage, I am a first-year PhD student at The Chinese University of Hong Kong, Shenzhen, studying in <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Laboratory of Sensing and Communication for Smart Cities</strong></a> and supervised by <a href=\"https://scholar.google.com/citations?user=h82gvswAAAAJ&hl=en&oi=ao\"><strong>Prof. Man-On Pun</strong></a>. My research focuses on <span class=\"about-highlight\">Cross-View / Video / 3D Generalizable Perception</span> and <span class=\"about-highlight\">Multi-modal Reasoning</span> in UAV and Urban scenarios.",
-    "Before joining CUHK(SZ), I was a Master student with <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a> at Xiamen University, supervised by <a href=\"https://scholar.google.com/citations?user=k5hVBfMAAAAJ&hl=en&oi=ao\"><strong>Prof. Xinghao Ding</strong></a>, where I worked on related problems in <strong>Time-series Signal Processing</strong> and <strong>Fine-grained Recognition (Object Re-identification)</strong>.",
+    "Before joining CUHK-Shenzhen, I was a Master student with <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP Lab</strong></a> at Xiamen University, supervised by <a href=\"https://scholar.google.com/citations?user=k5hVBfMAAAAJ&hl=en&oi=ao\"><strong>Prof. Xinghao Ding</strong></a>, where I worked on related problems in <strong>Time-series Signal Processing</strong> and <strong>Fine-grained Recognition (Object Re-identification)</strong>.",
     "Starting from June 2026, I work at <a href=\"https://mmlab.ie.cuhk.edu.hk/\"><strong>MMLab@CUHK</strong></a> with <a href=\"https://scholar.google.com/citations?user=BN2Ze-QAAAAJ&hl=en\"><strong>Prof. Hongsheng Li</strong></a> as a visiting student."
   ],
   publications: [
