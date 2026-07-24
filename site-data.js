@@ -26,7 +26,7 @@ window.siteData = {
   ],
   publications: [
     {
-      title: "GeoLink: A 3D-Aware Framework Towards Better Generalization in Cross-View Geo-Localization",
+      title: "GeoLink: A 3D-aware Framework to Improve Generalization for Cross-view Geo-localization",
       authors: "Hongyang Zhang, Yinhao Liu, Haitao Zhang, Zhongyi Wen, Zhenyu Kuang, Shuxian Liang, Xiansheng Hua",
       venue: "ACMMM 2026 (Accepted, CCF-A)",
       year: "2026",
