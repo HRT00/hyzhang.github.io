@@ -42,6 +42,7 @@ window.siteData = {
       year: "2026",
       type: "Conference",
       link: "https://openreview.net/pdf?id=v6xrfEjNQv",
+      code: "https://github.com/HRT00/Official_InfoGeo",
       selected: true,
       description: "An information-theoretic object-centric framework for cross-view UAV geo-localization, designed to improve robustness and generalization across regions, viewpoints, and weather conditions."
     },
