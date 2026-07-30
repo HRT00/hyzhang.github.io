@@ -8,7 +8,7 @@ window.siteData = {
   email: "hongyangzhang1@link.cuhk.edu.cn",
   avatarText: "HZ",
   avatarImage: "images/hongyang-zhang.jpg",
-  lastUpdated: "July 25, 2026",
+  lastUpdated: "July 30, 2026",
   interests: [
     "GeoAI",
     "Multi-modal Perception & Reasoning",
@@ -74,7 +74,7 @@ window.siteData = {
       description: ""
     },
     // {
-    //   title: "PRADA: Prompt-guided Representation Alignment and Dynamic Adaption for Time Series Forecasting",
+    //   title: "PRADA: Prompt-guided Representation Alignment and Dynamic Adaptation for Time Series Forecasting",
     //   authors: "Yinhao Liu, Zhenyu Kuang, Hongyang Zhang, Chen Li, Feifei Li, Xinghao Ding",
     //   venue: "Knowledge-Based Systems 2025 (Accepted, JCR-Q1)",
     //   year: "2025",
