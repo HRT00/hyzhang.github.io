@@ -65,14 +65,23 @@ window.siteData = {
       link: "https://arxiv.org/pdf/2602.11196"
     },
     {
-      title: "PRADA: Prompt-guided Representation Alignment and Dynamic Adaption for Time Series Forecasting",
-      authors: "Yinhao Liu, Zhenyu Kuang, Hongyang Zhang, Chen Li, Feifei Li, Xinghao Ding",
-      venue: "Knowledge-Based Systems 2025 (Accepted, JCR-Q1)",
-      year: "2025",
+      title: "RFLM: An RF Language Model for Instruction-Conditioned RF Processing",
+      authors: "Zhongyi Wen, Changjian Yang, Hongyang Zhang, Yatong Wang, Huaizong Shao, Shafei Wang",
+      venue: "IEEE Transactions on Mobile Computing 2026 (Accepted, CCF-A)",
+      year: "2026",
       type: "Journal",
       selected: true,
-      description: "A prompt-guided representation alignment and dynamic adaption framework for time series forecasting."
+      description: ""
     },
+    // {
+    //   title: "PRADA: Prompt-guided Representation Alignment and Dynamic Adaption for Time Series Forecasting",
+    //   authors: "Yinhao Liu, Zhenyu Kuang, Hongyang Zhang, Chen Li, Feifei Li, Xinghao Ding",
+    //   venue: "Knowledge-Based Systems 2025 (Accepted, JCR-Q1)",
+    //   year: "2025",
+    //   type: "Journal",
+    //   selected: true,
+    //   description: "A prompt-guided representation alignment and dynamic adaption framework for time series forecasting."
+    // },
     {
       title: "AIVR-Net: Attribute-based invariant visual representation learning for vehicle re-identification",
       authors: "Hongyang Zhang, Zhenyu Kuang, Lidong Cheng, Yinhao Liu, Xinghao Ding, Yue Huang",
@@ -94,6 +103,7 @@ window.siteData = {
     }
   ],
   news: [
+    { date: "2026-07", icon: "🎊", text: "Two papers about LLM4Sci were accepted by TMC and TAES, respectively" },
     { date: "2026-07", icon: "🎉", text: "GeoLink (UAV Cross-View Geo-Localization) was accepted by ACMMM 2026." },
     { date: "2026-06", icon: "🎊", text: "One paper about Cloud Removal was accepted by ECCV 2026." },
     { date: "2026-05", icon: "🎉", text: "InfoGeo (UAV Cross-View Geo-Localization) was accepted by ICML 2026." },
