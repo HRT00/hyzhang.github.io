@@ -104,7 +104,7 @@ window.siteData = {
     }
   ],
   news: [
-    { date: "2026-07", icon: "🎊", text: "Two papers about LLM4Radar were accepted by TMC and TAES, respectively" },
+    { date: "2026-07", icon: "🎊", text: "Two papers about LLM4Radar were accepted by IEEE TMC and TAES journals." },
     { date: "2026-07", icon: "🎉", text: "GeoLink (UAV Cross-View Geo-Localization) was accepted by ACMMM 2026." },
     { date: "2026-06", icon: "🎊", text: "One paper about Cloud Removal was accepted by ECCV 2026." },
     { date: "2026-05", icon: "🎉", text: "InfoGeo (UAV Cross-View Geo-Localization) was accepted by ICML 2026." },
