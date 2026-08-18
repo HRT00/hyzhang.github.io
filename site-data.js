@@ -8,7 +8,7 @@ window.siteData = {
   email: "hongyangzhang1@link.cuhk.edu.cn",
   avatarText: "HZ",
   avatarImage: "images/hongyang-zhang.jpg",
-  lastUpdated: "July 30, 2026",
+  lastUpdated: "August 18, 2026",
   interests: [
     "GeoAI",
     "Multi-modal Perception & Reasoning",
@@ -66,6 +66,16 @@ window.siteData = {
       link: "https://arxiv.org/pdf/2602.11196"
     },
     {
+      title: "Unity in Diversity: Multi-expert Knowledge Confrontation and Collaboration for Generalizable Vehicle Re-identification",
+      authors: "Zhenyu Kuang, Hongyang Zhang, Yinhao Liu, Xiaosong Li",
+      venue: "IEEE Transactions on Image Processing 2026 (Accepted, CCF-A)",
+      year: "2026",
+      type: "Journal",
+      selected: true,
+      description: "A multi-expert knowledge confrontation and collaboration framework for generalizable vehicle re-identification.",
+      link: "https://arxiv.org/abs/2407.07351"
+    },
+    {
       title: "RFLM: An RF Language Model for Instruction-Conditioned RF Processing",
       authors: "Zhongyi Wen, Changjian Yang, Hongyang Zhang, Yatong Wang, Huaizong Shao, Shafei Wang",
       venue: "IEEE Transactions on Mobile Computing 2026 (Accepted, CCF-A)",
@@ -91,16 +101,6 @@ window.siteData = {
       type: "Journal",
       selected: true,
       description: "An attribute-based invariant visual representation learning framework for vehicle re-identification."
-    },
-    {
-      title: "Unity in Diversity: Multi-expert Knowledge Confrontation and Collaboration for Generalizable Vehicle Re-identification",
-      authors: "Zhenyu Kuang, Hongyang Zhang, Lidong Cheng, Yinhao Liu, Yue Huang, Xinghao Ding",
-      venue: "arXiv preprint 2024",
-      year: "2024",
-      type: "Preprint",
-      selected: true,
-      description: "A multi-expert knowledge confrontation and collaboration framework for generalizable vehicle re-identification.",
-      link: "https://arxiv.org/abs/2407.07351"
     }
   ],
   news: [
