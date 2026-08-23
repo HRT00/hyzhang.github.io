@@ -8,7 +8,7 @@ window.siteData = {
   email: "hongyangzhang1@link.cuhk.edu.cn",
   avatarText: "HZ",
   avatarImage: "images/hongyang-zhang.jpg",
-  lastUpdated: "August 18, 2026",
+  lastUpdated: "August 23, 2026",
   interests: [
     "GeoAI",
     "Multi-modal Perception & Reasoning",
@@ -32,7 +32,8 @@ window.siteData = {
       type: "Conference",
       selected: true,
       description: "",
-      link: "https://arxiv.org/abs/2604.13183"
+      link: "https://arxiv.org/abs/2604.13183",
+      code: "https://github.com/HRT00/Official_InfoGeo"
     },
     {
       title: "InfoGeo: Information-Theoretic Object-Centric Learning for Cross-View Generalizable UAV Geo-Localization",
@@ -41,7 +42,7 @@ window.siteData = {
       year: "2026",
       type: "Conference",
       link: "https://openreview.net/pdf?id=v6xrfEjNQv",
-      code: "https://github.com/HRT00/Official_InfoGeo",
+      code: "https://github.com/HRT00/GeoLink",
       selected: true,
       description: "An information-theoretic object-centric framework for cross-view UAV geo-localization, designed to improve robustness and generalization across regions, viewpoints, and weather conditions."
     },
