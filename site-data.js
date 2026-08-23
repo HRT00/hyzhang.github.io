@@ -116,7 +116,7 @@ window.siteData = {
   ],
   honors: [
     "<strong>CDMP Research and Innovation Scheme for CUHK and CUHK(SZ), 2026</strong>",
-    "<strong>3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, ICCV'2025 VOS Workshop</strong>",
+    "<strong>3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, ICCV'2025</strong>",
     "<strong>Outstanding Postgraduate, Xiamen University, 2025</strong>",
     "<strong>Merit Student, Xiamen University, 2025</strong>",
     "<strong>National Scholarship for Postgraduate Student, 2024</strong>",
