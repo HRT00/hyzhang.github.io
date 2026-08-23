@@ -114,9 +114,12 @@ window.siteData = {
     // { date: "2024-01", icon: "🔥", text: "AIVR-Net (Vehicle Re-identification) was accepted by Knowledge-Based Systems." }
   ],
   honors: [
-    "<strong>2025: 3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, ICCV'2025 VOS Workshop</strong>",
-    "<strong>2024-2025: Outstanding Postgraduate of Xiamen University</strong>",
-    "<strong>2023-2024: National Scholarship for Postgraduate Student</strong>",
+    "<strong>CDMP Research and Innovation Scheme for CUHK and CUHK(SZ), 2026</strong>",
+    "<strong>3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, ICCV'2025 VOS Workshop</strong>",
+    "<strong>Outstanding Postgraduate, Xiamen University, 2025</strong>",
+    "<strong>Merit Student, Xiamen University, 2025</strong>",
+    "<strong>National Scholarship for Postgraduate Student, 2024</strong>",
+    "<strong>Merit Student, Xiamen University, 2023</strong>"
   ],
   service: [
     "Conference Reviewer: AAAI (2026, 2027), ACMMM (2026)",
