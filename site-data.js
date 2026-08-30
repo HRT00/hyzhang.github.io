@@ -67,7 +67,7 @@ window.siteData = {
     },
     {
       title: "Unity in Diversity: Multi-expert Knowledge Confrontation and Collaboration for Generalizable Vehicle Re-identification",
-      authors: "Zhenyu Kuang, Hongyang Zhang, Yinhao Liu, Xiaosong Li",
+      authors: "Zhenyu Kuang, Hongyang Zhang, Xiaosong Li, Xiaoqi Cheng, Yinhao Liu, Haishu Tan",
       venue: "IEEE Transactions on Image Processing 2026 (Accepted, CCF-A)",
       year: "2026",
       type: "Journal",
