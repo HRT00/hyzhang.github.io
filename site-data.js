@@ -124,7 +124,7 @@ window.siteData = {
     "<strong>Merit Student, Xiamen University, 2023</strong>"
   ],
   service: [
-    "Conference Reviewer: AAAI (2026, 2027), ACMMM (2026)",
+    "Conference Reviewer: AAAI, ACMMM, ICLR",
     "Journal Reviewer: IEEE TNNLS, IEEE J-IOT, IEEE J-STARS, Pattern Recognition Letters."
   ],
   cv: [
