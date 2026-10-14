@@ -112,7 +112,7 @@ window.siteData = {
       year: "2024",
       type: "Journal",
       selected: true,
-      description: "An attribute-based invariant visual representation learning framework for vehicle re-identification."
+      description: ""
     }
   ],
   news: [
@@ -141,7 +141,7 @@ window.siteData = {
     "Journal Reviewer: IEEE TNNLS, IEEE TII, IEEE J-IOT, IEEE J-STARS, Pattern Recognition Letters."
   ],
   cv: [
-    { label: "Research", text: "Computer vision, cross-view learning, MLLM and Agentic Reasoning." },
+    { label: "Research", text: "Computer vision, MLLM and Agentic Reasoning." },
     { label: "Skills", text: "PyTorch, deep learning, and academic writing." }
   ],
   visitorMapHtml: "",
