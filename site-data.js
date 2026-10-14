@@ -141,8 +141,8 @@ window.siteData = {
     "Journal Reviewer: IEEE TNNLS, IEEE TII, IEEE J-IOT, IEEE J-STARS, Pattern Recognition Letters."
   ],
   cv: [
-    { label: "Research", text: "Computer vision, remote sensing, visual geo-localization, cross-view matching, and robust representation learning." },
-    { label: "Skills", text: "PyTorch, deep learning, image retrieval, remote sensing image analysis, and academic writing." }
+    { label: "Research", text: "Computer vision, cross-view learning, MLLM and Agentic Reasoning." },
+    { label: "Skills", text: "PyTorch, deep learning, and academic writing." }
   ],
   visitorMapHtml: "",
   visitorMapPlaceholder:
