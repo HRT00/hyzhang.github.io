@@ -111,8 +111,7 @@ window.siteData = {
       venue: "Knowledge-Based Systems 2024 (Accepted, JCR-Q1)",
       year: "2024",
       type: "Journal",
-      selected: true,
-      description: ""
+      selected: true
     }
   ],
   news: [
