@@ -1,0 +1,14 @@
+/* Preserve the original circular portrait treatment. */
+.portrait {
+  width: 184px;
+  max-width: 100%;
+  border: 3px solid color-mix(in srgb, var(--panel) 82%, var(--accent));
+  border-radius: 50%;
+}
+
+@media (max-width: 640px) {
+  .portrait {
+    width: 115px;
+    border-radius: 50%;
+  }
+}

@@ -7,7 +7,7 @@ window.siteData = {
   location: "Shenzhen, China",
   email: "hongyangzhang1@link.cuhk.edu.cn",
   avatarText: "HZ",
-  avatarImage: "images/hongyang-zhang.jpg",
+  avatarImage: "images/hongyang-zhang.webp",
   lastUpdated: "October 14, 2026",
   interests: [
     "GeoAI",
@@ -25,24 +25,30 @@ window.siteData = {
   ],
   publications: [
     {
+      image: "images/publications/geolink-framework.webp",
+      imageAlt: "Geolink method framework",
+      topic: "Cross-View Geo-localization",
       title: "GeoLink: A 3D-aware Framework to Improve Generalization for Cross-view Geo-localization",
       authors: "Hongyang Zhang, Yinhao Liu, Haitao Zhang, Zhongyi Wen, Zhenyu Kuang, Shuxian Liang, Xian-sheng Hua",
       venue: "ACMMM 2026 (Accepted, CCF-A)",
       year: "2026",
       type: "Conference",
       selected: true,
-      description: "",
+      description: "Scene-level 3D structure guides cross-view representation learning while preserving a 2D-only inference pipeline.",
       link: "https://arxiv.org/abs/2604.13183",
-      code: "https://github.com/HRT00/Official_InfoGeo"
+      code: "https://github.com/HRT00/GeoLink"
     },
     {
+      image: "images/publications/infogeo-framework.webp",
+      imageAlt: "Infogeo method framework",
+      topic: "Object-Centric Learning",
       title: "InfoGeo: Information-Theoretic Object-Centric Learning for Cross-View Generalizable UAV Geo-Localization",
       authors: "Hongyang Zhang, Maonan Wang, Ziyao Wang, Hongrui Yin, Man-On Pun",
       venue: "ICML 2026 (Accepted, CCF-A)",
       year: "2026",
       type: "Conference",
       link: "https://openreview.net/pdf?id=v6xrfEjNQv",
-      code: "https://github.com/HRT00/GeoLink",
+      code: "https://github.com/HRT00/Official_InfoGeo",
       selected: true,
       description: "An information-theoretic object-centric framework for cross-view UAV geo-localization, designed to improve robustness and generalization across regions, viewpoints, and weather conditions."
     },
@@ -56,6 +62,9 @@ window.siteData = {
     //   description: ""
     // },
     {
+      image: "images/publications/radarpos-framework.webp",
+      imageAlt: "Radarpos method framework",
+      topic: "Radar Signal Recognition",
       title: "Position-Aware Self-Supervised Representation Learning For Cross-Mode Radar Signal Recognition",
       authors: "Hongyang Zhang, Haitao Zhang, Yinhao Liu, Kunjie Lin, Yue Huang, Xinghao Ding",
       venue: "ICASSP 2026 (Accepted, CCF-B)",
@@ -66,6 +75,9 @@ window.siteData = {
       link: "https://arxiv.org/pdf/2602.11196"
     },
     {
+      image: "images/publications/mikecoco-framework.webp",
+      imageAlt: "Mikecoco method framework",
+      topic: "Generalizable Vehicle ReID",
       title: "Unity in Diversity: Multi-expert Knowledge Confrontation and Collaboration for Generalizable Vehicle Re-identification",
       authors: "Zhenyu Kuang, Hongyang Zhang, Xiaosong Li, Xiaoqi Cheng, Yinhao Liu, Haishu Tan",
       venue: "IEEE Transactions on Image Processing 2026 (Accepted, CCF-A)",
@@ -116,7 +128,7 @@ window.siteData = {
     // { date: "2024-01", icon: "🔥", text: "AIVR-Net (Vehicle Re-identification) was accepted by Knowledge-Based Systems." }
   ],
   honors: [
-    "<strong>Fellowship from Shenzhen Universiade International Scholarship Foundation, 2026<strong>",
+    "<strong>Fellowship from Shenzhen Universiade International Scholarship Foundation, 2026</strong>",
     "<strong>Funding from CDMP Research and Innovation Scheme for CUHK and CUHK(SZ), 2026</strong>",
     "<strong>3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, ICCV'2025</strong>",
     "<strong>Outstanding Postgraduate, Xiamen University, 2025</strong>",
@@ -129,7 +141,6 @@ window.siteData = {
     "Journal Reviewer: IEEE TNNLS, IEEE TII, IEEE J-IOT, IEEE J-STARS, Pattern Recognition Letters."
   ],
   cv: [
-    { label: "Education", text: "Add your degree, department, university, and dates." },
     { label: "Research", text: "Computer vision, remote sensing, visual geo-localization, cross-view matching, and robust representation learning." },
     { label: "Skills", text: "PyTorch, deep learning, image retrieval, remote sensing image analysis, and academic writing." }
   ],
