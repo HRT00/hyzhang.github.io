@@ -104,6 +104,7 @@ window.siteData = {
     }
   ],
   news: [
+    {date: "2026-09", icon: "🚀", text: "We have released a [&nbsp;Repository](https://github.com/ISChenawei/Awesome-Cross-View-Geo-localization) about Awesome Cross-View Geo-Localization"},
     { date: "2026-08", icon: "🎊", text: "One paper about Generalizable Vehicle ReID was accepted by IEEE TIP journal." },
     { date: "2026-07", icon: "🎊", text: "Two papers about LLM4Radar were accepted by IEEE TMC and TAES journals." },
     { date: "2026-07", icon: "🎉", text: "GeoLink (UAV Cross-View Geo-Localization) was accepted by ACMMM 2026." },
