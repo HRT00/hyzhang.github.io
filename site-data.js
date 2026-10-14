@@ -8,7 +8,7 @@ window.siteData = {
   email: "hongyangzhang1@link.cuhk.edu.cn",
   avatarText: "HZ",
   avatarImage: "images/hongyang-zhang.jpg",
-  lastUpdated: "August 23, 2026",
+  lastUpdated: "October 14, 2026",
   interests: [
     "GeoAI",
     "Multi-modal Perception & Reasoning",
@@ -125,7 +125,7 @@ window.siteData = {
   ],
   service: [
     "Conference Reviewer: AAAI, ACMMM, ICLR",
-    "Journal Reviewer: IEEE TNNLS, IEEE J-IOT, IEEE J-STARS, Pattern Recognition Letters."
+    "Journal Reviewer: IEEE TNNLS, IEEE TII, IEEE J-IOT, IEEE J-STARS, Pattern Recognition Letters."
   ],
   cv: [
     { label: "Education", text: "Add your degree, department, university, and dates." },
