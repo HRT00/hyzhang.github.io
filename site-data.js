@@ -20,7 +20,8 @@ window.siteData = {
     { label: "Email", href: "mailto:hongyangzhang1@link.cuhk.edu.cn" }
   ],
   about: [
-    "👋 Welcome to my academic homepage, I am a second-year PhD student at The Chinese University of Hong Kong, Shenzhen, studying in <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Laboratory of Sensing and Communication for Smart Cities</strong></a> and supervised by <a href=\"https://scholar.google.com/citations?user=h82gvswAAAAJ&hl=en&oi=ao\"><strong>Prof. Man-On Pun</strong></a>. I worked at <a href=\"https://mmlab.ie.cuhk.edu.hk/\"><strong>MMLab@CUHK</strong></a> with <a href=\"https://scholar.google.com/citations?user=BN2Ze-QAAAAJ&hl=en\"><strong>Prof. Hongsheng Li</strong></a> as a visiting student in June 2026. Previously, I was a Master student with <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP@XMU</strong></a>, supervised by <a href=\"https://scholar.google.com/citations?user=FN2F7ZYAAAAJ&hl=en\"><strong>Prof. Xinghao Ding</strong></a>. I also conducted a research internship about Smart City@Terminus in 2024, collaborating with <a href=\"https://scholar.google.com/citations?user=6G-l4o0AAAAJ&hl=en&oi=ao\"><strong>Prof. Xian-Sheng Hua</strong></a> (IEEE Fellow).",
+    "👋 Welcome to my academic homepage, I am a second-year PhD student at The Chinese University of Hong Kong, Shenzhen, studying in <a href=\"https://mypage.cuhk.edu.cn/academics/simonpun/index.html\"><strong>Laboratory of Sensing and Communication for Smart Cities</strong></a> and supervised by <a href=\"https://scholar.google.com/citations?user=h82gvswAAAAJ&hl=en&oi=ao\"><strong>Prof. Man-On Pun</strong></a>. I worked at <a href=\"https://mmlab.ie.cuhk.edu.hk/\"><strong>MMLab@CUHK</strong></a> with <a href=\"https://scholar.google.com/citations?user=BN2Ze-QAAAAJ&hl=en\"><strong>Prof. Hongsheng Li</strong></a> as a visiting student in June 2026.",
+    " Previously, I was a Master student with <a href=\"https://xmu-smartdsp.github.io/\"><strong>SmartDSP@XMU</strong></a>, supervised by <a href=\"https://scholar.google.com/citations?user=FN2F7ZYAAAAJ&hl=en\"><strong>Prof. Xinghao Ding</strong></a>. I also conducted a research internship about Smart City@Terminus in 2024, collaborating with <a href=\"https://scholar.google.com/citations?user=6G-l4o0AAAAJ&hl=en&oi=ao\"><strong>Prof. Xian-Sheng Hua</strong></a> (IEEE Fellow).",
   ],
   publications: [
     {
@@ -139,7 +140,7 @@ window.siteData = {
   cv: [
     {
       label: "",
-      text: "Python, MATLAB, PyTorch, PyG, LaTeX\nIELTS 6.5 (Speaking: 6.0; Reading: 7.5; Listening: 6.0; Writing: 7.0), CET-4: 587, CET-6: 522"
+      text: "Python, MATLAB, PyTorch, LaTeX\nIELTS 6.5 (Speaking: 6.0; Reading: 7.5; Listening: 6.0; Writing: 7.0), CET-4: 587, CET-6: 522"
     }
   ],
   visitorMapHtml: "",
