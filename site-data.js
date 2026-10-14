@@ -62,19 +62,6 @@ window.siteData = {
     //   description: ""
     // },
     {
-      image: "images/publications/radarpos-framework.webp",
-      imageAlt: "Radarpos method framework",
-      topic: "Radar Signal Recognition",
-      title: "Position-Aware Self-Supervised Representation Learning For Cross-Mode Radar Signal Recognition",
-      authors: "Hongyang Zhang, Haitao Zhang, Yinhao Liu, Kunjie Lin, Yue Huang, Xinghao Ding",
-      venue: "ICASSP 2026 (Accepted, CCF-B)",
-      year: "2026",
-      type: "Conference",
-      selected: true,
-      description: "A position-aware self-supervised representation learning method for cross-mode radar signal recognition.",
-      link: "https://arxiv.org/pdf/2602.11196"
-    },
-    {
       image: "images/publications/mikecoco-framework.webp",
       imageAlt: "Mikecoco method framework",
       topic: "Generalizable Vehicle ReID",
@@ -86,6 +73,16 @@ window.siteData = {
       selected: true,
       description: "A multi-expert knowledge confrontation and collaboration framework for generalizable vehicle re-identification.",
       link: "https://arxiv.org/abs/2407.07351"
+    },
+    {
+      topic: "Radar Signal Recognition",
+      title: "Position-Aware Self-Supervised Representation Learning For Cross-Mode Radar Signal Recognition",
+      authors: "Hongyang Zhang, Haitao Zhang, Yinhao Liu, Kunjie Lin, Yue Huang, Xinghao Ding",
+      venue: "ICASSP 2026 (Accepted, CCF-B)",
+      year: "2026",
+      type: "Conference",
+      selected: true,
+      link: "https://arxiv.org/pdf/2602.11196"
     },
     {
       title: "RFLM: An RF Language Model for Instruction-Conditioned RF Processing",
