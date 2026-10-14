@@ -139,7 +139,7 @@ window.siteData = {
   cv: [
     {
       label: "",
-      text: "Python, MATLAB, CVX, PyTorch, PyG, LaTeX\nIELTS (Speaking: 6.0; Reading: 7.5; Listening: 6.0; Writing: 7.0), CET-4: 587, CET-6: 522"
+      text: "Python, MATLAB, PyTorch, PyG, LaTeX\nIELTS 6.5 (Speaking: 6.0; Reading: 7.5; Listening: 6.0; Writing: 7.0), CET-4: 587, CET-6: 522"
     }
   ],
   visitorMapHtml: "",
