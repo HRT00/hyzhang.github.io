@@ -25,8 +25,8 @@ window.siteData = {
   ],
   publications: [
     {
-      image: "images/publications/geolink-framework.webp",
-      imageAlt: "Geolink method framework",
+      image: "images/publications/geolink-poster.webp",
+      imageAlt: "GeoLink poster",
       topic: "Cross-View Geo-localization",
       title: "GeoLink: A 3D-aware Framework to Improve Generalization for Cross-view Geo-localization",
       authors: "Hongyang Zhang, Yinhao Liu, Haitao Zhang, Zhongyi Wen, Zhenyu Kuang, Shuxian Liang, Xian-sheng Hua",
@@ -39,8 +39,8 @@ window.siteData = {
       code: "https://github.com/HRT00/GeoLink"
     },
     {
-      image: "images/publications/infogeo-framework.webp",
-      imageAlt: "Infogeo method framework",
+      image: "images/publications/infogeo-poster.webp",
+      imageAlt: "InfoGeo poster",
       topic: "Object-Centric Learning",
       title: "InfoGeo: Information-Theoretic Object-Centric Learning for Cross-View Generalizable UAV Geo-Localization",
       authors: "Hongyang Zhang, Maonan Wang, Ziyao Wang, Hongrui Yin, Man-On Pun",
