@@ -137,8 +137,10 @@ window.siteData = {
     "Journal Reviewer: IEEE TNNLS, IEEE TII, IEEE J-IOT, IEEE J-STARS, Pattern Recognition Letters."
   ],
   cv: [
-    { label: "Research", text: "Computer vision, MLLM and Agentic Reasoning." },
-    { label: "Skills", text: "PyTorch, deep learning, and academic writing." }
+    {
+      label: "",
+      text: "Python, MATLAB, CVX, PyTorch, PyG, LaTeX\nIELTS (Speaking: 6.0; Reading: 7.5; Listening: 6.0; Writing: 7.0), CET-4: 587, CET-6: 522"
+    }
   ],
   visitorMapHtml: "",
   visitorMapPlaceholder:
