@@ -17,7 +17,7 @@ window.siteData = {
   links: [
     { label: "Google Scholar", href: "https://scholar.google.com/citations?user=35tLJkoAAAAJ&hl=en" },
     { label: "GitHub", href: "https://github.com/HRT00" },
-    { label: "Twitter", text: "@hyzhang2000", href: "https://x.com/hyzhang2000" },
+    { label: "X", text: "@hyzhang2000", href: "https://x.com/hyzhang2000" },
     { label: "Email", href: "mailto:hongyangzhang1@link.cuhk.edu.cn" }
   ],
   about: [
