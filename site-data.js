@@ -8,7 +8,7 @@ window.siteData = {
   email: "hongyangzhang1@link.cuhk.edu.cn",
   avatarText: "HZ",
   avatarImage: "images/hongyang-zhang.webp",
-  lastUpdated: "October 14, 2026",
+  lastUpdated: "October 16, 2026",
   interests: [
     "GeoAI",
     "Multi-modal Perception & Reasoning",
@@ -141,7 +141,7 @@ window.siteData = {
   cv: [
     {
       label: "",
-      text: "Python, MATLAB, PyTorch, LaTeX\nIELTS 6.5 (Speaking: 6.0; Reading: 7.5; Listening: 6.0; Writing: 7.0), CET-4: 587, CET-6: 522"
+      text: "Python, MATLAB, PyTorch, LaTeX\nIELTS 6.5 (Speaking: 6.0, Reading: 7.5, Listening: 6.0, Writing: 7.0); CET-4: 587; CET-6: 522"
     }
   ],
   visitorMapHtml: "",
