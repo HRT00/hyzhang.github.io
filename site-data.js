@@ -128,10 +128,10 @@ window.siteData = {
   honors: [
     "<strong>Fellowship from Shenzhen Universiade International Scholarship Foundation, 2026</strong>",
     "<strong>Funding from CDMP Research and Innovation Scheme for CUHK and CUHK(SZ), 2026</strong>",
-    "<strong>3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, ICCV'2025(Top3/20)</strong>",
+    "<strong>3rd Place in the 7th Large-Scale Video Object Segmentation Challenge, ICCV'2025 (Top 3 out of 20+ teams)</strong>",
     "<strong>Outstanding Postgraduate, Xiamen University, 2025</strong>",
     "<strong>Merit Student, Xiamen University, 2025</strong>",
-    "<strong>National Scholarship for Postgraduate Student, 2024 (Top2/60)</strong>",
+    "<strong>National Scholarship for Postgraduate Student, 2024 (Top 2 out of 60+ students)</strong>",
     "<strong>Merit Student, Xiamen University, 2023</strong>"
   ],
   service: [
