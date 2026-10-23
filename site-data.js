@@ -136,7 +136,7 @@ window.siteData = {
   ],
   service: [
     "Conference Reviewer: AAAI, ACMMM, ICLR",
-    "Journal Reviewer: IEEE TNNLS, IEEE TII, IEEE J-IOT, IEEE J-STARS, Pattern Recognition Letters."
+    "Journal Reviewer: IEEE TNNLS, IEEE TII, IEEE T-AES, IEEE J-STARS, Pattern Recognition Letters."
   ],
   cv: [
     {
