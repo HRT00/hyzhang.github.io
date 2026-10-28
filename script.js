@@ -4,7 +4,7 @@
   const make=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text)n.textContent=text;return n;};
   const link=(label,href,cls)=>{const a=make('a',cls,label);a.href=href;if(!href.startsWith('mailto:')){a.target='_blank';a.rel='noopener noreferrer';}return a;};
   try{if(localStorage.getItem('theme')==='dark')root.dataset.theme='dark';}catch(_){}
-  document.title=`${data.name} | Academic Homepage`;
+  document.title=`${data.name} | CUHK-Shenzhen | Academic Homepage`;
   document.querySelectorAll('[data-field]').forEach(n=>{if(data[n.dataset.field])n.textContent=data[n.dataset.field];});
   document.getElementById('copyright-year').textContent=new Date().getFullYear();
   if(data.previousAffiliation){const n=document.getElementById('previous-affiliation');n.textContent=data.previousAffiliation;n.hidden=false;}
