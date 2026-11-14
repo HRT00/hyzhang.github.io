@@ -8,7 +8,7 @@ window.siteData = {
   email: "hongyangzhang1@link.cuhk.edu.cn",
   avatarText: "HZ",
   avatarImage: "images/hongyang-zhang.webp",
-  lastUpdated: "October 30, 2026",
+  lastUpdated: "November 15, 2026",
   interests: [
     "GeoAI",
     "Multi-modal Perception & Reasoning",

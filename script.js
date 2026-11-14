@@ -14,6 +14,12 @@
   data.links.forEach(item=>{const a=link(item.text||(item.label==='Email'?data.email:item.label),item.href);const icon=make('span','link-icon',icons[item.label]||'↗');icon.setAttribute('aria-hidden','true');if(item.label==='X'){icon.textContent='';const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('width','14');svg.setAttribute('height','14');svg.setAttribute('fill','currentColor');const path=document.createElementNS('http://www.w3.org/2000/svg','path');path.setAttribute('d','M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.64 7.584H.47l8.6-9.835L0 1.154h7.594l5.243 6.932zM17.61 20.644h2.039L6.486 3.24H4.298z');svg.append(path);icon.append(svg);}a.prepend(icon);document.getElementById('links').append(a);});
   const scholar=data.links.find(item=>item.label==='Google Scholar');if(scholar)document.getElementById('full-scholar-list').href=scholar.href;
   document.querySelector('[data-contact-link]').href=`mailto:${data.email}`;
+  if(data.visitorMapHtml&&data.visitorMapHtml.trim()){
+    const map=document.getElementById('visitor-map'),widget=document.getElementById('visitor-map-widget');
+    widget.innerHTML=data.visitorMapHtml;
+    widget.querySelectorAll('script').forEach(original=>{const script=document.createElement('script');for(const attr of original.attributes)script.setAttribute(attr.name,attr.value);script.textContent=original.textContent;original.replaceWith(script);});
+    widget.querySelectorAll('a').forEach(a=>{a.target='_blank';a.rel='noopener noreferrer';});map.hidden=false;
+  }
   data.about.forEach(t=>{const p=make('p');p.innerHTML=t;document.getElementById('about-content').append(p);});
   const dialog=document.querySelector('.figure-dialog'),preview=document.getElementById('figure-preview');
   document.querySelector('.figure-close').addEventListener('click',()=>dialog.close());
@@ -30,6 +36,10 @@
   // Parse existing inline Markdown links; keep remaining news text literal.
   function linkedText(n,text){const pattern=/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g;let start=0;for(const m of text.matchAll(pattern)){n.append(document.createTextNode(text.slice(start,m.index)));n.append(link(m[1].replaceAll('&nbsp;',' ').trim(),m[2]));start=m.index+m[0].length;}n.append(document.createTextNode(text.slice(start)));}
   data.news.forEach(item=>{const row=make('div','news-item'),date=make('time','news-date',item.date),text=make('div','news-text');date.dateTime=item.date;if(item.icon)text.append(make('span','news-icon',item.icon));linkedText(text,item.text);row.append(date,text);document.getElementById('news-list').append(row);});
+  const newsList=document.getElementById('news-list');
+  function sizeNews(){const rows=[...newsList.children];if(rows.length>6){newsList.style.maxHeight=`${rows.slice(0,6).reduce((sum,row)=>sum+row.getBoundingClientRect().height,0)+1}px`;}else newsList.style.removeProperty('max-height');}
+  if('ResizeObserver'in window){let newsWidth=0;new ResizeObserver(entries=>{const width=entries[0].contentRect.width;if(width!==newsWidth){newsWidth=width;sizeNews();}}).observe(newsList);}else window.addEventListener('resize',sizeNews);
+  sizeNews();if(document.fonts)document.fonts.ready.then(sizeNews);
   data.honors.forEach(item=>{const li=make('li');li.innerHTML=item;document.getElementById('honors-list').append(li);});data.service.forEach(item=>document.getElementById('service-list').append(make('li','',item)));
   data.cv.forEach(item=>{const row=make('article',`cv-item${item.label?'':' no-label'}`);if(item.label)row.append(make('h3','',item.label));row.append(make('p','',item.text));document.getElementById('cv-list').append(row);});
   const theme=document.querySelector('.theme-toggle');function themeLabel(){const dark=root.dataset.theme==='dark',label=dark?'Switch to light mode':'Switch to dark mode';theme.setAttribute('aria-label',label);theme.title=label;theme.querySelector('span').textContent=dark?'☀':'☾';}theme.addEventListener('click',()=>{const dark=root.dataset.theme!=='dark';if(dark)root.dataset.theme='dark';else delete root.dataset.theme;try{if(dark)localStorage.setItem('theme','dark');else localStorage.removeItem('theme');}catch(_){}themeLabel();});themeLabel();
