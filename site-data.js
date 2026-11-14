@@ -144,7 +144,7 @@ window.siteData = {
       text: "Python, MATLAB, PyTorch, LaTeX\nIELTS 6.5 (Speaking: 6.0, Reading: 7.5, Listening: 6.0, Writing: 7.0); CET-4: 587; CET-6: 522"
     }
   ],
-  visitorMapHtml: "",
+  visitorMapHtml: '<a href="https://www.visitordots.com/details/vd_iQqdy-74W_tKhDWHSmEwPy7K" aria-label="View visitor locations and statistics"><img src="https://map.visitordots.com/vmap/174858890885468.png" alt="World map of visitor locations" style="display:block;width:100%;max-width:280px;height:auto;border:0"></a><a href="https://www.visitordots.com/create?widget=map&amp;theme_key=white-gray-dots&amp;dot_color=blue&amp;dot_shape=circle&amp;flag_theme=light&amp;columns=4&amp;maximum=24&amp;layout=sidebar&amp;from=widget">Get a free visitor map like this</a>',
   visitorMapPlaceholder:
     "To enable a live global visitor map on GitHub Pages, paste your widget embed code here after creating one with a service such as <a href=\"https://clustrmaps.com/\" target=\"_blank\" rel=\"noreferrer\">ClustrMaps</a> or <a href=\"https://www.flagcounter.com/\" target=\"_blank\" rel=\"noreferrer\">Flag Counter</a> for https://hrt00.github.io/hyzhang.github.io/."
 };
